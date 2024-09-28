@@ -1,0 +1,2028 @@
+CHEF RPG Early Access Version 0.5=厨师物语 抢先体验版 0.5
+Version 0.5 Notes=0.5版本笔记
+Content Coming Soon=内容即将发布
+Early Access V 0.5=抢先体验 V 0.5
+September 12, 2024\n\nSummary of available content in Early Access Version 0.5\n\n- 3 Story Acts -\n- 20 quests. -\n- 2 Restaurants to manage -\n- Over 240 Recipes to collect -\n- A dense open world to explore -\n- 4 Seasons -\n+ More below\n\n- Dozens of ingredients to forage -\n- Over a dozen creatures to hunt -\n- Fishing -\n- Farming -\n- Brewing -\n- 40 unique skills to unlock -\n- 36 research skills -\n- Over 20 major characters -\n- Over 30 minor characters -\n=2024年9月12日\r\n\r\n抢先体验0.5版本中的可用内容摘要\n\n- 3个故事情节 -\n- 20个任务。 -\n- 2个餐厅管理 -\n- 超过240个食谱收集 -\n- 一个密集的开放世界来探索 -\n- 4个季节 -\n- +下面更多\n\n- 数十种食材 -\n- 十几种生物打猎 -\n- 渔业 -\n- 农业 -\n- 酿造 -\n- 40种独特技能解锁 -\n- 36种研究技能 -\n- 20多种主要角色 -\n- 30多种次要角色 -\n
+Chef RPG is a large open-world RPG that we would like to continue to develop until it has reached our full vision. We would love your feedback throughout the Early Access period to make further improvements add new features that players would like to see implemented.=Chef RPG是一款大型开放世界RPG，我们希望继续开发，直到它达到我们的全部愿望。 我们希望您在整个抢先体验期间的反馈意见，以便进一步改进，添加玩家希望实现的新功能。\n\n<color\=#e7ba50>- 汉化组成员 -</color>\n\n<color\=white>law_4x、骆一锅、神杀士、小霞丸、蛋包饭、茄狐、龍音リュウイン\n\n汉化版本0.9c\n\n禁止二次搬运！\n下载地址\nlaw4x.lanzn.com/b0nyh0v7i\n密码:law4x</color>
+In no particular order, below is a list of content we wish to implement into Chef RPG in future updates.\n\n- Complete main story -\n- Additional quests for main NPCS -\n- City Area -\n- Fishing Village -\n- More major and minor npcs -\n- Deeper romance options \n- More unique minigames -\n- Festivals & world events -\n- Late & End game challenges -\n\n- Controller support -\n- Translations for multiple languages -\n\n=没有特别的顺序，下面是我们希望在未来更新中实现到Chef RPG的内容列表。\n\n-  完整的主要故事 -\n- 主NPCS的额外任务 -\n- 城市区域 -\n- 渔村 -\n- 更多主要和次要NPCS的冒险故事 -\n- 更深层次的浪漫选择 -\n- 更多独特的迷你游戏 -\n- 节日和世界活动 -\n- 晚点和结束游戏挑战 -\n\n- 控制器支持 -\n- 多语言翻译 -\n\n
+Thank you for playing Chef RPG!=感谢您游玩厨师物语！
+cONTINUE=继续
+
+Interact=交互
+Use X, E, or Space to chat with NPCs or interact with objects.=使用 X、E 或空格与NPC聊天或与物体交互。
+Press M to open the map and find the next main quest target.=按 M 打开地图并找到下一个主任务目标。
+Open Inventory=打开库存
+Press ESC to open the character menu and view your inventory.=按 ESC 打开角色菜单并查看你的库存。
+Use mouse Right Click to add your new tool to the tool slot.=使用鼠标右键将新工具添加到工具槽位中。
+Add Tool=添加工具
+
+
+r:"^Day ([0-9]+) Spring, Year ([0-9]+)$"=第$2年，第$1天，春天
+r:"^Day ([0-9]+) Summer, Year ([0-9]+)$"=第$2年，第$1天，夏天
+r:"^Day ([0-9]+) Autumn, Year ([0-9]+)$"=第$2年，第$1天，秋天
+r:"^Day ([0-9]+) Winter, Year ([0-9]+)$"=第$2年，第$1天，冬天
+
+r:"^([0-9]+) : ([0-9]+) A.M.\r\n天 ([0-9]+), 春天\r\n年 ([0-9]+)$"=$1 : $2 A.M.\n第$3天,春天\n第$4年
+r:"^([0-9]+) : ([0-9]+) A.M.\r\n天 ([0-9]+), 夏天\r\n年 ([0-9]+)$"=$1 : $2 A.M.\n第$3天,夏天\n第$4年
+r:"^([0-9]+) : ([0-9]+) A.M.\r\n天 ([0-9]+), 秋天\r\n年 ([0-9]+)$"=$1 : $2 A.M.\n第$3天,秋天\n第$4年
+r:"^([0-9]+) : ([0-9]+) A.M.\r\n天 ([0-9]+), 冬天\r\n年 ([0-9]+)$"=$1 : $2 A.M.\n第$3天,冬天\n第$4年
+r:"^([0-9]+) : ([0-9]+) P.M.\r\n天 ([0-9]+), 春天\r\n年 ([0-9]+)$"=$1 : $2 P.M.\n第$3天,春天\n第$4年
+r:"^([0-9]+) : ([0-9]+) P.M.\r\n天 ([0-9]+), 夏天\r\n年 ([0-9]+)$"=$1 : $2 P.M.\n第$3天,夏天\n第$4年
+r:"^([0-9]+) : ([0-9]+) P.M.\r\n天 ([0-9]+), 秋天\r\n年 ([0-9]+)$"=$1 : $2 P.M.\n第$3天,秋天\n第$4年
+r:"^([0-9]+) : ([0-9]+) P.M.\r\n天 ([0-9]+), 冬天\r\n年 ([0-9]+)$"=$1 : $2 P.M.\n第$3天,冬天\n第$4年
+家具布局
+r:"^([0-9]+):([0-9]+) A.M.\r\n天 ([0-9]+), 春天\r\n年 ([0-9]+)$"=$1:$2 A.M.\n第$3天,春天\n第$4年
+r:"^([0-9]+):([0-9]+) A.M.\r\n天 ([0-9]+), 夏天\r\n年 ([0-9]+)$"=$1:$2 A.M.\n第$3天,夏天\n第$4年
+r:"^([0-9]+):([0-9]+) A.M.\r\n天 ([0-9]+), 秋天\r\n年 ([0-9]+)$"=$1:$2 A.M.\n第$3天,秋天\n第$4年
+r:"^([0-9]+):([0-9]+) A.M.\r\n天 ([0-9]+), 冬天\r\n年 ([0-9]+)$"=$1:$2 A.M.\n第$3天,冬天\n第$4年
+r:"^([0-9]+):([0-9]+) P.M.\r\n天 ([0-9]+), 春天\r\n年 ([0-9]+)$"=$1:$2 P.M.\n第$3天,春天\n第$4年
+r:"^([0-9]+):([0-9]+) P.M.\r\n天 ([0-9]+), 夏天\r\n年 ([0-9]+)$"=$1:$2 P.M.\n第$3天,夏天\n第$4年
+r:"^([0-9]+):([0-9]+) P.M.\r\n天 ([0-9]+), 秋天\r\n年 ([0-9]+)$"=$1:$2 P.M.\n第$3天,秋天\n第$4年
+r:"^([0-9]+):([0-9]+) P.M.\r\n天 ([0-9]+), 冬天\r\n年 ([0-9]+)$"=$1:$2 P.M.\n第$3天,冬天\n第$4年
+
+
+
+r:"^([0-9]+) H ([0-9]{2})$"=$1 <b>时</b> $2 <b>分</b>
+r:"^([0-9]+) H ([0-9]+)\r\n([0-9]+)\r\n([0-9]+)\r\n([0-9]+)%$"=$1 <b>时</b> $2 <b>分</b>\r\n$3\r\n$4\r\n$5%
+r:"^([0-9]+):([0-9]+) A.M.\r\n([0-9]+):([0-9]+) A.M.$"=$1:$2 <b><size\=6>上午</size></b>\r\n$3:$4 <b><size\=6>上午</size></b>
+r:"^([0-9]+):([0-9]+) A.M.\r\n([0-9]+):([0-9]+) P.M.$"=$1:$2 <b><size\=6>上午</size></b>\r\n$3:$4 <b><size\=6>下午</size></b>
+r:"^([0-9]+):([0-9]+) P.M.\r\n([0-9]+):([0-9]+) P.M.$"=$1:$2 <b><size\=6>下午</size></b>\r\n$3:$4 <b><size\=6>下午</size></b>
+r:"^([0-9]+):([0-9]+) P.M.\r\n([0-9]+):([0-9]+) A.M.$"=$1:$2 <b><size\=6>下午</size></b>\r\n$3:$4 <b><size\=6>上午</size></b>
+r:"^([0-9]+)\r\n([0-9]+)\r\n([0-9]+)\r\n([0-9]+) Min$"=$1\r\n$2\r\n$3\r\n$4 <b><size\=6>分</size></b>
+
+r:"^([0-9]+) 春天\r\n年 ([0-9]+)$"=第$1年，第$2天\n春天
+r:"^([0-9]+) 夏天\r\n年 ([0-9]+)$"=第$1年，第$2天\n夏天
+r:"^([0-9]+) 秋天\r\n年 ([0-9]+)$"=第$1年，第$2天\n秋天
+r:"^([0-9]+) 冬天\r\n年 ([0-9]+)$"=第$1年，第$2天\n冬天
+
+
+
+r:"^周一, 天 ([0-9]+)$"=周一, 第$1天
+r:"^周二, 天 ([0-9]+)$"=周二, 第$1天
+r:"^周三, 天 ([0-9]+)$"=周三,第$1天
+r:"^周四, 天 ([0-9]+)$"=周四, 第$1天
+r:"^周五, 天 ([0-9]+)$"=周五, 第$1天
+r:"^周六, 天 ([0-9]+)$"=周六, 第$1天
+r:"^周日, 天 ([0-9]+)$"=周日, 第$1天
+r:"^春天, 年 ([0-9]+)$"=第$1年，春天
+r:"^夏天, 年 ([0-9]+)$"=第$1年，夏天
+r:"^秋天, 年 ([0-9]+)$"=第$1年，秋天
+r:"^冬天, 年 ([0-9]+)$"=第$1年，冬天
+
+
+r:"^要用之前天 ([0-9]+), 春天, 年 ([0-9]+)的睡眠存档覆盖你的自动存档吗？$"=要用之前【第$2年，第$1天，春天】的睡眠存档覆盖你的自动存档吗？
+r:"^要用之前天 ([0-9]+), 夏天, 年 ([0-9]+)的睡眠存档覆盖你的自动存档吗？$"=要用之前【第$2年，第$1天，夏天】的睡眠存档覆盖你的自动存档吗？
+r:"^要用之前天 ([0-9]+), 秋天, 年 ([0-9]+)的睡眠存档覆盖你的自动存档吗？$"=要用之前【第$2年，第$1天，秋天】的睡眠存档覆盖你的自动存档吗？
+r:"^要用之前天 ([0-9]+), 冬天, 年 ([0-9]+)的睡眠存档覆盖你的自动存档吗？$"=要用之前【第$2年，第$1天，冬天】的睡眠存档覆盖你的自动存档吗？
+
+
+r:"^([0-9]+) Days$"=$1 天
+
+
+r:"^\+ ([0-9]+) Health$"=+ $1 生命
+r:"^\- ([0-9]+) Health$"=- $1 生命
+r:"^\+ ([0-9]+) Stamina$"=+ $1 耐力
+r:"^\- ([0-9]+) Stamina$"=- $1 耐力
++20 Health=+20 生命
++20 Stamina=+20 耐力
+
+r:"^([0-9]+) X$"=$1 X
+r:"^([0-9]+)X$"=$1X
+r:"^([0-9]+)x$"=$1x
+r:"^([0-9]+) x$"=$1 x
+
+
+r:"^([0-9]+) SP$"=$1 技能点
+
+
+
+r:"^([0-9]+) x ([\S\s]+)$"=$1 x $2
+r:"^([0-9]+) x Credits$"=$1 x 积分
+r:"^([0-9]+) x Rose$"=$1 x 玫瑰
+
+
+
+
+
+Settings\n=设置\n
+SOUND SETTINGS=声音设置
+Ambient=环境
+MUSIC=音乐
+SFX=音效
+Master=主音量
+
+Zoom Out=放大
+display settings=显示设置
+800 x 450=800 x 450
+640 x 360=640 x 360
+Base resolution=基础分辨率
+For outdoor maps. 640 x 360 recommended for smaller displays. 800 x 450 recommended for larger displays.=户外地图。 640 x 360 适用于小型显示器。 800 x 450 推荐用于更大的显示屏。
+Zoom In=缩小
+
+Open Menu\nClose Window=打开菜单\n关闭窗口
+Swap Tools=交换工具
+Movement=移动
+Attack=攻击
+Equip\nTool=装备\n工具
+Multi - Buy\nMulti - Build=多次 - 购买\n多次 - 建造
+Interact Object\nOpen Door=交互\n开门
+Open Map=打开地图
+
+购买/出售多个物品=购买/出售\n多个物品
+
+CREDITS=鸣谢
+NOAH - Pixel Architect=NOAH - 像素建筑设计
+Clement Chassot=Clement Chassot
+Special Thanks=特别感谢
+Key Art=主要艺术
+Nikita Reynolds=Nikita Reynolds
+Music=音乐
+Writing=编剧
+QA Testing=QA 测试
+Bugie - Nekotama Anime=Bugie - Nekotama Anime
+Animation, Pixel Art=动画, 像素艺术
+Character Design, Pixel Art=人物设计, 像素艺术
+Nick Mazmanian=Nick Mazmanian
+Max Ishchenko - QA Test Labs=Max Ishchenko - 质量保证测试实验室
+Pixel Art=像素艺术
+Director, Design, Programming, Pixel Art, Writing=总监, 设计, 编程, 像素艺术, 编剧
+Tim Beek=Tim Beek
+Stelo=Stelo
+Below are members of the Chef RPG community who have volunteered as early testers and have given valuable feedback and bug reports.=以下是Chef RPG社区的成员，他们自愿作为早期测试人员，并提供了宝贵的反馈和错误报告。
+AquaTail\nPuppyG\nAJ\nEbony Nelson\neva wowza\nDaleybobs\nAura\nLia=AquaTail\nPuppyG\nAJ\nEbony Nelson\neva wowza\nDaleybobs\nAura\nLia
+
+New Game=新建游戏
+Load Game=加载游戏
+Credits=鸣谢
+Quit Game=退出游戏
+Back to Menu=返回菜单
+Slot Empty=空档位
+Yes=是
+No=否
+Game Saved!=游戏已保存！
+Save Slots Full!=保存档位已满！
+Save Game=保存游戏
+To Desktop=退到桌面
+Main Menu=主菜单
+
+O=O
+N=N
+M=M
+W=W
+T=T
+U=U
+E=E
+D=D
+H=H
+S=S
+A=A
+F=F
+R=R
+I=I
+
+5 SP\n=5 SP\n
+
+
+Select the Season You Wish To Depart=选择你希望启程的季节
+The freezing temperature makes hunting and harvesting difficult. Most plants and animals are unavailable.=严寒的气温使狩猎和收获变得困难。大多数植物和动物都无法获得。
+Edible vegetation are bountiful and easy to forage. A wide variety of animals roam the forests during the cooler springtime.=可食用植被丰富，易于觅食。在凉爽的春季，各种动物在森林中游荡。
+Fish are plentiful and many wild plants are abundant. However, wildlife tends to stay away from the hot summer sun.=这里鱼类众多，野生植物丰富。不过，野生动物往往会避开夏日的烈日。
+Wild fruits and mushrooms are ripe and ready to harvest. Crustaceans and squid are abundant along the shoreline.=野果和蘑菇已经成熟，可以采摘。海岸线上有大量甲壳类动物和鱿鱼。
+SPRING=春天
+SUMMER=夏天
+AUTUMN=秋天
+WINTER=冬天
+Back=返回上一页
+Begin=开始
+
+Start Journey=开始旅程
+Return to Menu=返回菜单
+
+Male=雄性
+Female=雌性
+
+Birthday=生日
+Birthday :=生日 :
+Favorite Gift :=最喜欢的礼物:
+最喜欢的礼物 :=最喜欢\n的礼物:
+Favorite Dish :=最喜欢的菜肴:
+Hair Color=头发颜色
+Body Type=身体类型
+Endurance=耐力
+Gathering=采集
+Social=社交
+Race=种族
+Specialty=专业领域
+Leggings=下身
+Enter Name=请输入姓名
+Top=上身
+Hair=头发
+Skin Color=肤色
+Human=人类
+Android\n=仿生人\n
+Skill Points=技能点数
+Humans Only=仅限人类
+
+Rotisseur=烧烤厨师
+Poissonier=鱼厨师
+Entremetier=蔬菜厨师
+Patissier=糕点师
+Mixologist=调酒师
+Saucier=炒菜厨师
+
+
+Begin with 3 meat recipes=携带3个肉类食谱开始
+Meat Specialist=肉类专家
+Begin with 3 seafood recipes=携带3个海鲜食谱开始
+Seafood Specialist=海鲜专家
+Begin with 3 vegetable recipes=携带3个蔬菜食谱开始
+Vegetable Specialist=蔬菜专家
+Begin with 3 dessert recipes=携带3个甜点食谱开始
+Dessert Specialist=甜点专家
+Begin with 3 beverage recipes=携带3个饮料食谱开始
+Drink Specialist=饮料专家
+Begin with 3 soup recipes=携带3个汤类食谱开始开始
+Sauce & Soup Specialist=酱汤专家
+
+White T-Shirt=白色T恤
+It's a plain white T-shirt.=这是一件普通的白色T恤。
+Windbreaker Jacket=防风夹克
+Loose Shirt=宽松衬衫
+The symbol of a legendary chef.=一个传奇厨师的象征。
+Hoodie=连帽衫
+Striped Shirt=条纹衬衫
+It's a lightweight cotton shirt.=这是一件轻便的棉衬衫。
+Beige Tanktop=米黄色背心
+Good for hot days.=适合热天。
+Thick Sweater=厚毛衣
+This looks very warm.=这看起来非常温暖。
+Yellow T-Shirt=黄色T恤
+Black T-Shirt=黑色T恤
+It's a plain black T-shirt.=这是一件普通的黑色T恤。
+Waveys Line 18=18号波浪线
+
+
+Blue Shorts=蓝色短裤
+Good for a hot summer day.=适合炎热的夏天。
+White Cutoffs=白色裁剪裤
+Red Loose Shorts=红色宽松短裤
+Very loose and comfy.=非常宽松和舒适。
+Army Pants=军裤
+The camo pattern blends in with the trees.=迷彩图案与树木融为一体。
+Tan Long Shorts=长款短裤
+Black Jeans=黑色牛仔裤
+Blue Jeans=蓝色牛仔裤
+Vintage Lovi jeans.=复古Lovi牛仔裤。
+Dress Pants=连衣裙裤
+Faded Jeans=褪色牛仔裤
+Lovi jean in a rare purple color.=少见的紫色Lovi牛仔裤。
+Blue Bottoms=蓝色打底裤
+
+Cool Flip=酷炫翻翘
+Icy Flow=冰凉顺发
+Lion Mane=狮子鬃
+Longbeard=长胡子
+Man Bun=男士发髻
+Maverick=特立独行
+Middle Part=中分
+Mohawk=莫霍克
+Mustache=小胡子
+Oppa=欧巴
+Phil=秃顶
+Raider=盗贼头
+Rockstar=摇滚
+Sergeant=军士
+Shaggy=蓬松乱发
+Suave=温文尔雅
+Tempest=暴风卷
+Bald=秃头
+Afro=非洲
+Beard=胡须
+Billy=比利
+Blacksmith=铁匠
+Bowl Cut=碗盖头
+Casanova=风度翩翩
+Combover=蓬松侧分
+
+Lana=拉娜头
+Leia=莱娅公主
+Stream=长直发
+Tornado=旋风
+Waltz=华尔兹
+Willow=细柳卷发
+Asymmetric=不对称发型
+Ballroom=舞会盘头
+Carla=卡拉
+Dahlia=大丽花短发
+Diva=天后
+Double Bun=双发髻
+Ponytail=单马尾
+Double Streaks=双盘条发
+Emelia=艾米莉
+Jolie=朱莉头
+Lonely Bun=单发髻
+Mini Bun=迷你发髻
+Raven=渡鸦
+Short Bob=波波短发
+Straight=柔顺长发
+
++ Dish Quality\nRequired for unlocking Cooking Skills=+ 菜肴质量\n需要解锁烹饪技能
++ Maximum Health / + Maximum Stamina\nRequired for unlocking General Skills=+ 最大生命 /+ 最大耐力\n需要解锁通用技能
++ Hunting / + Fishing / + Gathering\nRequired for unlocking Gathering Skills=+ 狩猎 / + 钓鱼 / + 采集\n需要解锁采集技能
++ Relationship Gain\nRequired for unlocking Social Skills=+ 关系增益\n需要解锁社交技能
+
++ 关系发展得更快。\r\n+ 从消耗品中获得buff。=+ 关系发展得更快。 + 从消耗品中获得buff。
+
+- 无法从大多数消耗品中获得buff。\r\n- 关系发展得较慢。=- 无法从大多数消耗品中获得buff。 - 关系发展得较慢。
+
+
+Cancel=取消
+Learn=学习
+Destroy item?=销毁物品？
+
+10:00 AM=上午10:00
+11:00 AM=上午11:00
+10:00 PM=下午10:00
+Destination=目的地
+Arrival Time=到达时间
+Departure Time=出发时间
+Arriving=到达
+
+White Ash Harbor=白荆港
+White Ash Harbour=白荆港
+Billboard City=霓虹城
+Le Sequoia=红杉馆
+Peony Bathhouse=牡丹浴场
+Bath Bloks=浴块
+Takashi Farms\n=高志\n农场\n
+Lonely Cliffs\n=孤独悬崖\n
+Ashy Swamps=白荆沼泽
+Train Station=列车站
+Valentina's Apartment=瓦伦蒂娜的公寓
+You Have No Active Daily Quests=你没有可用的日常任务
+No Close Friends Available=没有亲密朋友
+
+RECIPE UNLOCKED=食谱解锁 
+Name=名称
+Epic=史诗
+
+ACT II=第二章
+ACT III=第三章
+
+LOCKED=已锁
+OPEN (E)=打开 ( E )
+PICK (X)=拾取 ( X )
+OPEN (X)=打开 ( X )
+CLOSE (X)=关闭 ( X )
+READ (X)=阅读 ( X )
+阅读 (X)=阅读 ( X )
+TAKE (X)=拿取 ( X )
+搜索 (X)=搜索 ( X )
+Pick (X)=拾取 ( X )
+
+Farming\n=农业\n
+Hunting=狩猎
+Brewing=酿造
+Fishing=钓鱼
+
+
+耐力\r\n采集\r\n烹饪\r\n社交=<size\=5>耐力\n采集\n烹饪\n社交</size>
+速度\r\n能耗\r\n耐伤\r\n耐热=<size\=5>速度\n能耗\n耐伤\n耐热</size>
+
+Accepted Task=已接受任务
+Task Complete!=任务完成！
+Assign To Restaurant=分配到餐厅
+Finance Changes=财务变动
+
+Total Unassigned Staff :  =未分配人员总数:  
+Total Hourly Wage=时薪总额
+WAITERS :=服务员:
+CHEFS :=主厨:
+Recruitment=招聘员工
+Release Staff=解雇员工
+Not Enough Credits=积分不足
+/ Week=/ 周数
+
+More restaurant services required to display chart=需要更多餐厅服务来显示图表
+More restaurant services required to display graph=需要更多餐厅服务来显示图表
+
+Recipes=食谱
+Main Course=主菜
+Dessert=甜品
+Appetizer=开胃菜
+Beverage=饮料
+
+Appetizers=开胃菜
+
+
+Experience gained is now split between 4 Stats : (Endurance, Gathering, Cooking, Social) and will be based on the kind of activity you are performing.\n\nTotal player level and skill points have been recalculated based on your Stats.\n\nStats now have a level cap of 15, and total player level has a level cap of 50. You may Reset your Skill Points after reaching Player Level 30.=<color\=#e7af42>获得的经验</color>现在会被分成<color\=#e7af42>四种属性</color>：（耐力、采集、烹饪、社交），并且会根据你正在进行的活动种类来计算。\n\n玩家总等级和技能点数已根据你的"属性"重新计算。\n\n现在，<color\=#e7af42>属性</color>的<color\=#e7af42>等级上限为 15 级</color>，玩家总<color\=#e7af42>等级上限为 50 级</color>。当玩家<color\=#e7af42>等级达到 30 级</color>后，你可以<color\=#e7af42>重置</color>你的<color\=#e7af42>技能点数</color>。
+Player Level 30.=.
+player=.
+! Skill System Update=! 技能系统更新
+Skill=.
+Points=.
+level cap of 50.=.
+level cap of 15=.
+Reset=.
+Stats\n=.
+recalculated=.
+Experience gained =.
+4 Stats\n=.
+level=.
+
+
+
+Use Right Mouse button to add to tools slot. Press 'Q' when outside to equip.=使用鼠标右键添加到工具插槽。 在室外按"Q"键进行装备。
+你必须完成红杉馆的盛大开幕活动才能学习此技能。=你必须完成红杉馆的盛大开幕活动才能学习此技能。
+1 Skill Points=1 技能点
+2 Skill Points=2 技能点
+3 Skill Points=3 技能点
+4 Skill Points=4 技能点
+5 Skill Points=5 技能点
+
+Resistances=抗性
+10 Cooking=10 烹饪
+10 Social=10 社交
+10 Endurance=10 耐力
++ Cures Poison=+ 治疗中毒
++ 20 Health\n=+ 20 生命\n
++5% Cooking Speed=+5% 烹饪速度
++10% Faster Friendships=+10% 更快的友谊
++ 20% Endurance=+ 20% 耐力
++ 20% Endurance (200 Min)=+ 20% 耐力 (200 分钟)
++12% Autocook Dish Quality=+12% 自动烹饪菜肴品质
+Knockback\nCritical\nSlow\nStun\nBurn=击退\n暴击\n缓慢\n眩晕\n烧伤
+Active Buffs\n+ 5% Speed\n+ 10% Cook Speed\n+ 5% Social\n=活跃buff\n+ 5%速度\n+ 10%烹饪速度\n+ 5%社交\n
+Endurance + 20\nCooking + 10\nGathering + 5\nBusiness + 20\n=耐力 + 20 烹饪 + 10 派对 + 5 商业 + 20\n
++20% Increase dish quality when preparing mixology dishes.=+20% 在准备混合菜肴时提高菜肴品质。
+Remaining Dishes=剩余菜肴
+Restaurant\n=餐厅\n
+Eating\n=进食\n
+Brewing Product=酿造产品
+Alcohol=酒精饮料
+Vegan Menu=素菜菜单
+Beverages\n=饮料\n
+Menu Ready=菜单准备
+
+Legendary Dish=传奇菜肴
+Favorite Treats=最爱美食
+Elite Animal=精英动物
+Vegetable - Consumable=蔬菜 - 消耗品
+Fruit - Consummable\n=水果 - 消耗品\n
+Fruit - Consumable=水果 - 消耗品
+Meat - Consumable=肉类 - 消耗品
+Seafood - Consumable=海鲜 - 消耗品
+Alcohol - Consumable=酒水 - 消耗品
+Dairy - Consumable=乳制品 - 消耗品
+Condiment=调料
+Meat=肉类
+Grain=谷物
+Drinks=饮料
+Menu=菜单
+Main Dish=主菜
+Desserts=甜品
+Vegetable=蔬菜类
+Dairy=乳制品
+Seafood=海鲜类
+Fruit=水果
+
+Watercress=西洋菜
+Clam Shell=蛤壳
+It's an empty clam shell.=这是一个空蛤壳。
+Purple Clam Shell=紫蛤壳
+Purple {{A}}=紫{{A}}
+This clam shell has a vibrant purple hue.=这种蛤壳具有鲜艳的紫色。
+Cone Shell=圆锥壳
+A seashell from a dangerous cone snail.=来自危险的锥形蜗牛的贝壳。
+Shark Tooth=鲨鱼齿
+This came from a BIG shark. Better be careful when out at sea . . .=它来自一条大鲨鱼，出海时最好小心。
+
+I wonder what's in this box?=我想知道这个盒子里有什么？
+Surprise Box=惊喜盒
+
+REFRIGERATOR=冷藏箱
+
+
+泡泡屋\r\n\r\n平日开放\r\n9:30 AM to 4:30 PM=泡泡屋\r\n\r\n平日开放\r\n9:30 AM 到 4:30 PM
+渔具店\r\n\r\n平日开放\r\n7:30 AM to 5:00 PM=渔具店\r\n\r\n平日开放\r\n7:30 AM 到 5:00 PM
+水产大王\r\n\r\n平日开放\r\n7:00 AM to 4:00 PM=水产大王\r\n\r\n平日开放\r\n7:00 AM 到 4:00 PM
+章鱼烧\r\n\r\n全天24小时开放\r\n24:00  to 24:00 =章鱼烧\r\n\r\n全天24小时开放\r\n24:00 到 24:00
+市政厅\r\n\r\n每天开放\r\n8:30 AM to 6:00 PM=市政厅\r\n\r\n每天开放\r\n8:30 AM 到 6:00 PM
+屠宰铺\r\n\r\n平日开放\r\n8:00 AM to 5:00 PM=屠宰铺\r\n\r\n平日开放\r\n8:00 AM 到 5:00 PM
+绿意茎植\r\n\r\n平日开放\r\n7:30 AM to 4:00 PM=绿意茎植\r\n\r\n平日开放\r\n7:30 AM 到 4:00 PM
+娜比哈莓果铺\r\n\r\n平日开放\r\n9:30 AM to 4:00 PM=娜比哈莓果铺\r\n\r\n平日开放\r\n9:30 AM 到 4:00 PM
+米洛服装店\r\n\r\n平日开放\r\n10:00 AM to 5:00 PM=米洛服装店\r\n\r\n平日开放\r\n10:00 AM 到 5:00 PM
+数码元件\r\n\r\n每天开放\r\n10:00 AM to 6:00 PM=数码元件\r\n\r\n每天开放\r\n0:00 AM 到 6:00 PM
+家装艺廊\r\n\r\n平日开放\r\n10:00 AM to 6:00 PM=家装艺廊\r\n\r\n平日开放\r\n10:00 AM 到 6:00 PM
+碧儿酒吧\r\n\r\n每天开放\r\n5:00 PM to 11:00 PM=碧儿酒吧\r\n\r\n每天开放\r\n5:00 PM 到 11:00 PM
+猎所\r\n\r\n平日开放\r\n9:00 AM to 4:00 PM=猎所\r\n\r\n平日开放\r\n9:00 AM 到 4:00 PM
+迷你超市\r\n\r\n每天开放\r\n8:00 AM to 4:00 PM=迷你超市\r\n\r\n每天开放\r\n8:00 AM 到 4:00 PM
+8-11\r\n\r\n全天24小时开放\r\n24:00  to 24:00 =8-11\r\n\r\n全天24小时开放\r\n24:00  到 24:00 
+埃普丽尔珍宝店\r\n\r\n平日开放\r\n9:00 AM to 6:00 PM=埃普丽尔珍宝店\r\n\r\n平日开放\r\n9:00 AM 到 6:00 PM
+浴场精品店\r\n\r\n每天开放\r\n10:00 AM to 11:00 PM=浴场精品店\r\n\r\n每天开放\r\n10:00 AM 到 11:00 PM
+
+Fully Upgraded=完全升级
+Upgrade Home=升级房屋
+Upgrade Restaurant=升级餐厅
+Purchase Home=购买房屋
+Time Remaining : 2 Days=剩余时间 : 2 天
+Molecular Gastronomy research facility=分子美食研究设施
+Molecular Gastronomy Research Facility is Under Construction=分子美食研究设施正在建设中
+Learn the art of molecular gastronomy and use science to produce otherworldy cuisine. You can also improve you proficiency when cooking with Stoves and Ice Cream Makers.\n=学习分子料理艺术，运用科学手段制作超凡脱俗的佳肴。你还可以在使用火炉和冰淇淋机烹饪时提升自己的熟练度。\n
+
+
+Buy Machine=自助售卖机
+
+苏大小站
+Lime Soda=青柠苏打
+Fizzy drink with too much sugar.=碳酸饮料加太多糖了。
+Black Coffee=黑咖啡
+Just some good old fashioned caffeine.=只是一杯不错的老式的咖啡。
+Creamy Coffee=奶油咖啡
+A hot coffee with a creamy flavor.=一杯带有奶油味道的热咖啡。
+Spiced Coffee=香草咖啡
+A hot coffee infused with aromatic spices.=一杯加入芳香香料的热咖啡
+Didi Cola=迪迪可乐
+Didi's classic cola, known across the globe.=迪迪牌的经典可乐，闻名全球。
+
+绿洲之源
+Fruit Tea=水果茶
+A hot tea with fruity flavors.=一种水果味的热茶。
+Green Tea=绿茶
+Green must mean that it's healthy.=绿色意味着它是健康的。
+Spiced Tea=调味茶
+An aromatic tea with infused with various spices.=一杯芳香的茶，注入了各种香料。
+Blueberry Milk Tea=蓝莓奶茶
+Made with red tea, milk and brown sugar tapioca pearls.=用红茶，牛奶和红糖木薯珍珠制成。
+Taro Milk Tea=香芋奶茶
+Made with taro, milk and brown sugar tapioca pearls.=用芋头，牛奶和红糖木薯珍珠制成。
+
+沃拉可乐
+Raspberry Fruit Tea=树莓果茶
+Cold raspberry beverage for those hot summer days!=树莓饮料对于那些炎热的夏天!
+Grape Fruit Tea=葡萄果茶
+Cold grape beverage for those hot summer days!=炎炎夏日的葡萄冷饮！
+
+嚼嚼小屋
+Orange Mouthbreaker=橙子硬糖
+Strawberry Mouthbreaker=草莓硬糖
+Plum Mouthbreaker=李子硬糖
+How am I supposed to eat this?=我该怎么吃这个？
+Cinnamon Bun=肉桂面包
+Swirly.=漩涡般的面包
+Grape Fruit Drops=葡萄硬糖
+Apple Fruit Drops=苹果硬糖
+Blueberry Mouthbreaker=蓝莓硬糖
+These hard candies pack a favorful punch.=这些硬糖很受欢迎。
+Gummy Candy=橡皮糖
+Squish squish.=挤一挤，拉一拉。
+
+苏帕能量
+Noir Orange=黑夜橙子
+Noir Cherry=黑夜樱桃
+Noir Lime=黑夜青柠
+A trendy new energy drink infamous for its intense flavor.=一种新潮的能量饮料，以其浓郁的味道而闻名。
+Supa Energy Zero=零糖苏帕能量饮料
+A globally popular energy drink. This one has zero sugar.=一种全球流行的能量饮料。这个是零糖。
+Supa Energy Red=红樱苏帕能量饮料
+A globally popular energy drink. This one is cherry flavored.=一种全球流行的能量饮料。这个是樱桃味。
+Supa Energy Classic=经典苏帕能量饮料
+The original energy drink that kickstarted it all.=原汁原味的能量饮料开启了这一切。
+
+8-11
+Instant Noodle=速食杯面
+Popular spicy noodle brand.=广受欢迎的香辣杯面品牌。
+Instant Ramen=速食拉面
+Convenient and tasty.=方便又美味。
+Red Elk Blueberry=红麋鹿蓝莓汁
+So much power!=这么大的力量！
+Red Elk Orange=红麋鹿橙汁
+Keeps you awake during all-nighters.=让你彻夜难眠。
+Sunscreen=防晒霜
+Protects you from sunburns!=保护你免受晒伤！
+Rice Ball=饭团
+Quick and convenient lunch for those busy days.=方便快捷的午餐，适合那些忙碌的日子。
+Dog Food=狗粮
+Description says : 'Not for human consumption.'=描述说:"不是为了人类而购买的。"
+Cat Food=猫粮
+A can of Tuna. Cats should enjoy this.=一罐金枪鱼，猫应该享受这一点。
+Instant Ice Pack=即时冰袋
+Instructions say : "Tear open bag and pour over head."=他说:"把袋子撕开，倒到头上。"
+
+
+
+Red Milk Tea=红茶奶茶
+Hot Blueberry Milk=热蓝莓牛奶
+Hot Taro Milk=热芋头牛奶
+Hot Spicy Milk=热香料牛奶
+Mango Milk Tea=芒果奶茶
+Purple Coconut Milk Tea=紫椰奶茶
+Oolong Milk Tea=乌龙奶茶
+Made with Oolong tea, milk and brown sugar tapioca pearls.=用乌龙茶、牛奶和红糖木薯珍珠制成。
+
+营养快讯
+Instant Vitamin C=速溶维生素C
+Box contains 2000% of daily recommedned dose of vitamin C.=盒子里含有每日推荐剂量的2000%的维生素C。
+Instant Vitamin D=速溶维生素D
+This won't taste very good.=这个味道不太好。
+Instant Vitamin E=速溶维生素E
+This should be good for your skill. And it's apple flavored!=这应该对你的技能有好处。这是苹果味！
+Nutrient XXO=营养剂XXO
+A strange container of nutrient pills. What is XXO?=一瓶奇怪的营养药丸。什么是XXO？
+Nutrient XOX=营养剂XOX
+A strange container of nutrient pills. What is XOX?=一瓶奇怪的营养药丸。什么是XOX？
+Nutrient OXX=营养剂OXX
+A strange container of nutrient pills. What is OXX?=一瓶奇怪的营养药丸。什么是OXX？
+
+
+牛奶天堂
+Moo Milk Orange=橙瓶哞牛奶
+A popular milk beverage. This one is infused with tangerine flavor.=一种广受欢迎的牛奶饮料。这款饮料添加了橙子味。
+Moo Milk Green=绿瓶哞牛奶
+A popular milk beverage. This one is infused with mint flavor.=一种广受欢迎的牛奶饮料。这款饮料添加了薄荷味。
+Moo Milk Blue=蓝瓶哞牛奶
+A popular milk beverage. This one is infused with blueberry flavor.=一种广受欢迎的牛奶饮料。这款饮料添加了蓝莓味。
+Moo Milk Yellow=黄瓶哞牛奶
+A popular milk beverage. This one is infused with yuzu flavor.=一种广受欢迎的牛奶饮料。这款饮料添加了柚子味。
+
+
+米洛服装店
+Yellow Swimwear=黄色泳装
+Blue Swimwear=蓝色泳装
+Time to swim!=是时候游泳了！
+French Chef Jacket=法国厨师夹克
+Black chef jacket with a gold neckerchief.=黑色厨师夹克配金色领巾。
+White chef jacket with a blue neckerchief.=白色厨师夹克配蓝色领巾。
+White chef jacket with a red neckerchief.=白色厨师夹克配红色领巾。
+Pink Skirt=粉色裙子
+Get ready for that Spring photoshoot.=为春天的拍摄做好准备。
+Elf Sweater=精灵毛衣
+Cool and classy sweater.=既酷又优雅的毛衣。
+Black Cutoffs=黑色裁剪裤
+Chef Coat=厨师外套
+It's a chef's jacket.=这是厨师的夹克。
+Red Skirt=红裙子
+Perfect for the summer.=非常适合夏天。
+Elegant Sweater=优雅毛衣
+This will make you look sophisticated.=这会让你看起来很老练。
+Rhinestone Hat=莱茵石帽
+This baseball cap sparkles under the light.=这顶棒球帽在灯光下闪闪发光。
+Grey Beret=灰色贝雷帽
+Makes you look artistic.=让你看起来很艺术。
+Chef Hat Black=黑色厨师帽
+A black chef hat typically used in high-end restauarants.=一种黑色厨师帽，通常用于高档餐厅。
+Chef Hat White=白色厨师帽
+A white chef hat typically used in high-end restauarants.=一种白色厨师帽，通常用于高档餐厅。
+Fiery Chef Coat=火红厨师外套
+The symbol of a master chef.=这是一位大师级厨师的象征。
+White Dress Pants=白色连衣裙裤
+Dress for success.=为成功着装。
+Red Barista Shirt=红色咖啡师衬衫
+Gold Shorts=金色短裤
+These short shine under the sun!=这些短裤在阳光下闪闪发光！
+Brown Beanie=棕色绒帽
+Very cool and hip.=非常酷，非常时髦。
+Concierge Cap=礼宾帽
+Part of the uniform for the staff of Hotel Rose.=玫瑰酒店员工制服的一部分。
+Fancy Dress=时尚连衣裙
+Keeps you clean!=让你保持清洁！
+
+
+Dancer's Brace=舞蹈员的支架
+Time to dance!=是时候跳舞了!
+Poncho=斗篷
+Good when you need to get down and dirty.=当你需要下地干活时，它就是你的好帮手。
+
+
+渔夫
+Straw Hat=草帽
+Protects you from the sun!=保护你免受阳光照射！
+Fishing Hat=钓鱼帽
+protects from the sun on those long fishing trips.=在漫长的钓鱼之旅中保护自己免受阳光的照射。
+Baseball Cap Blue=蓝色球帽
+Take me out to the ballgame!=带我去看球赛！
+Cool Shades=冷色墨镜
+Sleek sunglasses from the SunBand company.=来自SunBand公司的时尚太阳镜。
+Captain's Hat=船长帽
+Protects from the sun on those long fishing trips.=在漫长的钓鱼之旅中保护自己免受阳光的照射。
+
+
+数码元件
+TT 650钻机=TT 650钻机
+Black and White Shirt=黑白条衬衫
+Modernist striped shirt with a minimalist design.=现代主义条纹衬衫，设计简约。
+Glow Bracelet=闪亮手镯
+This bracelet can often be found at music concerts,=这种手镯经常可以在音乐会上找到
+DALLE Microprocessor=黛尔微处理器
+A high-quality processor produced by the DALLE corporation.=黛尔公司生产的高品质处理器。
+Thermal Microprocessor=热敏微处理器
+Powerful processor for androids. This one prvents damage from extreme heat.=强大的仿生人处理器，这个可以防止极热造成的伤害。
+Bronze Bionic Arm=青铜仿生臂
+Enhances your lift strength.=增强你的举重力量。
+Corb's Muse=科尔布的缪斯
+Iconic black sweater for a legendary designer.=传奇设计师的标志性黑色毛衣。
+Explorer's Microprocessor=探险家的的微处理器
+Powerful processor for androids. This one is used by professional rangers.=强大的仿生人处理器，这是由专业护林员使用。
+Gourmet's Microprocessor=美食家的微处理器
+Powerful processor for androids. This one is used by professional chefs.=强大的仿生人处理器， 这是由专业厨师使用。
+Consort's Microprocessor=音乐家的微处理器
+Powerful processor for androids. This one is used by professional companions.=强大的仿生人处理器， 这是由专业音乐家使用。
+Carbon Bionic Arm=碳素仿生臂
+Lightweight carbon-fible arm that greatly enhances your strength.=轻重量级碳纤维手臂，大大增强你的力量。
+Aiming Bracelet=瞄准手镯
+Improves your accuracy when using a bow.=提高你使用弓时的准确度。
+Aviator Jacket=飞行员夹克
+This jacket gives you wings.=这件夹克让你如虎添翼。
+Cipher Legs=加密腿部
+Sneaky!=潜行！
+
+
+
+Spread the love!=传播爱！
+Pendant of Love=爱之吊坠
+Silver Compass=银色罗盘
+This will be helful when you are lost in the woods.=当你在森林里迷路时，这将会很有帮助。
+
+
+章鱼烧
+Deluxe Takoyaki=豪华章鱼烧
+The popular squid treat, with a bit of everything.=深受欢迎的鱿鱼美食，应有尽有。
+Spicy Takoyaki=香辣章鱼烧
+The most popular Takoyaki in the region.=该地区最受欢迎的章鱼烧。
+Garlic Takoyaki=蒜香章鱼烧
+The garlic aroma is incredible!=大蒜的香味令人难以置信!
+Classic Takoyaki=经典章鱼烧
+It's the classic squid treat, with a twist.=这是经典的鱿鱼美食，但也有新意。
+
+
+医务室
+Bandage=创可贴
+For small custs and scrapes.=适用于小面积的擦伤和刮伤。
+Bandage Wrap=绷带
++ Cures Bleed=+ 治疗出血
+Protect your injuries from infection.=保护你的伤口免受感染。
+Headache Away=头痛散
+For headaches and migranes. Limit to 2 pills per day.=用于头痛和偏头痛。每天限服2片。
+Painkillers=止痛药
+Numbs pain for a while.=能暂时缓解疼痛。
+Adrenaline Shot=肾上腺素注射器
+A powerful cure for dire situations.=是应对危急情况的一剂良药。
+
+
+
+珍宝店
+Mallow=锦葵
+Flower with its distinct shape made up of five petals.=由五个花瓣组成的形状独特的花。
+Orchid=兰花
+Colorful and fragrant! Makes for a great gift.=五颜六色，香喷喷！这是一份很棒的礼物。
+Primrose=报春花
+Thrives under some shade.=在某种阴影下茁壮成长。
+Rose=玫瑰
+Gorgeous flower. Perfect gift for a date.=华丽的花朵，约会的最佳礼物。
+Lily=百合花
+Emerald Ring=绿宝石戒指
+What a gorgeous ring!=多么漂亮的戒指啊!
+Ruby Ring=红宝石戒指
+The stone shines a fiery red.=这块石头发出火红的亮光。
+Ruby Gemstone=红宝石
+Diamond Gemstone=钻石宝石
+Emerald Gemstone=绿宝石
+A rare emerald shard extracted from deep below ground.=一种罕见的翡翠碎片，从地下深处挖取。
+Valentines Chocolate=情人节巧克力
+Handmade chocolates wrapped in a heart-shated box.=手工巧克力包裹在心形盒子里。
+Jade Pendant=玉吊坠
+Gorgeous purple stone in this pendant.=华丽的紫色石头镶嵌在这吊坠上。
+Diamond Necklass=钻石项链
+Beautiful.=超美丽.
+Diamond Ring=钻石戒指
+You could stare at it for hours.=你可以盯着它看几个小时。
+
+
+猎所
+碳纤维弓 X20=碳纤维弓 X20
++10 Bonus Knockback=+10 击退奖励
++20 Bonus Knockback=+20 击退奖励
+8% Chance to Stun for 1 seconds=8%眩晕几率，持续 1 秒
+10% Chance to Stun for 1 seconds=10%眩晕几率，持续 1 秒
+8% Chance for 200% Critical Damage=8%的几率造成200%的致命伤害
+10% Chance for 200% Critical Damage=10%的几率造成200%的致命伤害
+
+浴场精品店
+Green One-Piece Swimsuit=绿色连体泳衣
+Black One-Piece Swimsuit=黑色连体泳衣
+Pink One-Piece Swimsuit=粉色连体泳衣
+Red One-Piece Swimsuit=红色连体泳衣
+Classic swimwear.=经典泳装
+Blue Swimming Overalls=蓝色游泳衣
+Black Swimming Overalls=黑色泳衣
+Purple Swimming Overalls=紫色泳衣
+Yellow Swimming Overalls=黄色游泳衣
+Aerodynamic in water.=水中的空气动力学。
+Black Swimwear=黑色泳装
+Soap=香皂
+Handcrafted soap with a delightful smell.=手工制作的香皂具有令人愉悦的气味。
+Bath Bomb=沐浴露球
+Consumable Ingredient=消耗品
+
+Dark Tea Table=深色茶几
+Light Tea Table=浅色茶几
+It's a fancy tea table. Is it time to host a tea party?=这是一张精致的茶几。是时候举办茶会了吗？
+Teahouse Chair=茶馆椅子
+Tatami Floor Tile=榻榻米地板
+A modular tile for building a Tatami Floor.=用于建造榻榻米地板的模块化。
+Exotic Tree=异国植物
+It's an exotic-looking potted tree.=这是一棵看起来异国情调的盆栽树。
+
+The Verdict=总结
+
+AVAILABLE DISHES=可做菜肴
+配料不足 MainCourse=主菜食材不足
+配料不足 Beverage=饮料食材不足
+配料不足 Dessert=甜品食材不足
+配料不足 Appetizer=开胃菜食材不足
+
+
+Apple Raspberry Cider Recipe=苹果覆盆子苹果酒食谱
+
+You do not know this person very well.=你不太了解这个人。
+Positive :=正面：
+Negatives :=负面：
+Availability=可用性
+Relationship :=关系：
+
+Daily Quests=每日任务
+Story Quests=故事任务
+Character Quests=角色任务
+Misc Quests=其他任务
+Quest Giver :=任务发布者 :
+COMING SOON=即将推出
+
+Level Up!=升级！
+Accept Task?=接受任务？
+REWARDS=奖励
+Parcel Delivered=包裹已送达
+Complete=完成
+Confirm=确认
+Open=打开
+Fridge=冷藏箱
+Bulletin=公告栏
+Takeout Order=外卖订单
+Cook=烹饪
+Claim Item=领取物品
+Ingredients Not Delivered=未交付的食材
+MINIMAP UNAVAILABLE IN THIS LOCATION=此位置无法使用小地图
+
+Omozone公司VS.萨希尔=欧马逊公司VS.萨希尔
+MaeLou=玫露
+Aloys=阿洛伊
+
+
+r:"^狩猎：\r\n([0-9]+) {{A}}$"=狩猎：\r\n$1 {{A}}
+r:"^收集物品：\r\n([0-9]+) {{A}}$"=收集物品：\r\n$1 {{A}}
+
+收集物品：\r\n0 / 1 Diamond Gemstone=收集物品： 0 / 1 钻石宝石
+r:"^收集物品：\r\n([0-9]+) / ([0-9]+) {{A}}$"=收集物品：\r\n$1 / $2 {{A}}
+
+
+
+
+Yaaahoooo！<color\=#00000000></color>=Yaaahoooo！<color\=#00000000></color>
+
+To begin preparing for service, place collected ingredients inside the Refrigerator.=开始准备服务时，将收集的食材放入<color\=white>冰箱</color>。
+Refrigerator.=.
+Different recipes are prepared using different Cooking Appliances. Enter Build Mode and place cooking appliances in the restaurant to use them.=使用不同的<color\=white>烹饪器具</color>可烹制出不同的菜谱。\n进入<color\=white>建造模式</color>，在餐厅中放置烹饪器具，即可使用它们。
+Build Mode=.
+Appliances.=.
+When you have the required Ingredients in the refrigerator and the required Cooking Appliances placed inside the restaurant, you can select the Dishes for your restaurant menu.=当你在冰箱放入所需的<color\=white>食材</color>和放置所需的<color\=white>烹饪器具</color>时，你可在餐厅菜单中选择      <color\=white>菜肴</color>。
+A restaurant requires Chefs and Waiters to operate. Since you are a chef, you can begin by preparing all the dishes yourself. To hire a waiter, enter the restaurant computer and go to the recruitment tab to hire more staff.=餐厅需要<color\=white>厨师</color>和<color\=white>服务员</color>来经营。 因为你是主厨，所以你可以从自己准备所有的菜开始。要雇用服务员，请进入餐厅电脑，然后前往招聘选项卡雇佣更多员工。
+Waiters=.
+Chefs=.
+Cooking=烹饪
+Dishes=.
+Appliances=.
+Ingredients=.
+Satisfaction\n\nThe satisfaction of customers depends on Dish Quality, Wait Time, and Decor. Higher satisfaction will generate higher Tips and better Quest Rewards.=<color\=white>满意度</color>\r\n\r\n顾客的满意度取决于<color\=white>菜肴品质</color>、<color\=white>等待时间</color>和<color\=white>装饰</color>。 更高的满意度将获得更多的<color\=white>小费</color>和更好的<color\=white>任务奖励</color>。
+Satisfaction=.
+Dish Quality\n=。
+Wait=.
+Time=.
+Decor=.
+Tips=.
+Quest=任务
+Win Awards=.
+Rewards=奖励
+More Customers=.
+Reputation\n\nReputation increases or decreases over time depending on the Satisfaction of a service. Higher reputation will bring More Customers and allow you to Win Awards (future update). The higher the reputation, the more difficult it is to increase.=\n\n声誉会随着时间的推移而增加或减少，这取决于服务的满意度。声望越高，<color\=white>顾客越多</color>，你也就越有可能获奖（未来更新）。声誉越高，越难提高。
+MISS=失误
+GREAT!=真棒！
+PERFECT!=完美！
+GOOD!=很好！
+Exit=退出
+Steam P.=蒸汽压力
+Water P.=水压力
+Hold for Steam=暂缓供汽
+Hold for Water=暂缓供水
+right=.
+left=.
+Temperature Gauge\n=温度测量仪\n
+Hold the left or right button to add water pressure or steam pressure. When both water pressure and steam pressure have reached their target, the temperature gauge at the top will increase. Push the temperature gauge as close as possible to the center red target when the timer runs out, for maximum dish quality.\n=按住<color\=white>左</color>或<color\=white>右</color>方向键可增加水压力或蒸汽压力。当水压力和蒸汽压力都达到目标时，顶部的温度计会升高。当计时器计时结束时，将温度表尽量推近中间的红色目标值，以获得最佳的菜肴质量。\n
+Frier=油炸锅
+lower=.
+Temperature Arrow=温度箭头
+Move with Mouse=移动鼠标
+Avoid Bubbles=避开泡沫
+dish quality.=.
+Move the mouse up & down to fry the ingredients. When the ingredients are submerged, the temperature arrow in the game bar will rise. Raise and lower the temperate to dodge the incoming bubbles. Popping a bubble will lower dish quality.=上下移动鼠标来煎炸食材。当食材被浸没时，游戏栏中的温度箭头会上升。提高或降低温度以躲避袭来的气泡。戳破气泡会<color\=red>降低菜肴质量</color>。
+Add Water=加水
+Steamer=蒸笼
+Mash the left and right directional keys quickly to increase the heat and water levels. When both bars have reached their optimal levels, steam will be released, and dish quality will continuously increase.=快速敲击<color\=white>左</color>或<color\=white>右</color>方向键可增加温度和水量。当两个进度条都达到最佳水平时，就会释放蒸汽，菜肴品质也会不断提高。
+Add Heat=加温
+
+0\r\n24\r\n3\r\n292 M=0\r\n24\r\n3\r\n292 M
+Ice Cream Machine=冰淇淋机
+IceCreamMachine=冰淇淋机
+lower dish quality.=.
+increase dish=.
+Use the mouse to target ingredients. Left click to shoot and freeze the ingredients. Shoot as many ingredients as you can to increase dish quality. Missing a shot will lower dish quality.=使用鼠标瞄准食材。<color\=white>点击左键</color>射击并冷冻食材。尽可能多地射中食材，以<color\=green>提高菜肴品质</color>。错过一次射击会<color\=red>降低菜肴品质</color>。
+Left click=.
+Frozen Ingredient=冷冻食材
+
+Sweet=甜味
+Creamy=奶味
+Aroma=芳香
+Leafy=叶味
+Cool\n=凉爽
+Acidity=酸味
+The ingredients added to the mixture will affect the type of bath block created. The higher the level of one quality and the higher the levels of sulphur, the higher the quality of the Bath Block created.=混合物中添加的原料会影响浴块的品质。原料品质越高，硫含量越高，制作浴块的品质就越高。
+Timer=计时器
+triple=.
+Sulphur=硫磺
+Bath Block Mixer=浴块混合器
+Tap X when the ingredient passes over the flashing zone. When all 3 ingredients are connected, they will be added to the mixer. Connecting 3 of the same ingredient will triple the benefits of each ingredient added.\n\nEvery ingredient has different qualities, and the created Bath Block will match the quality with the highest value.=当原料经过闪烁区时点击X。当所有3种材料都连接起来时，它们将被添加到混合器中。连接<color\=white>3</color>种相同的原料将使添加的每种原料的特点增加<color\=white>三倍</color>。\n\n每种原料都有不同的品质，制作的浴块将与品质最高的原料一致。
+
+
+
+Show Available Dishes=显示可用菜肴
+Decor Value=装饰价值
+
+
+
+This is very cute!=这是非常可爱的！
+Pink Bunny Ears=粉红兔耳朵
+Worn by the ultimate bubble tea barista.=由终极泡泡茶咖啡师佩戴。
+Hasel's Leggings=哈塞尔的紧身裤
+
+
+I can redeem this at the bathhouse for some unique rewards.=我可以在澡堂兑换一些独特的奖励。
+Peony Ticket=牡丹票
+
+
+
+
+Cool and casual shirt from the fall line.=凉爽和休闲的衬衫从秋季线。
+
+
+
+
+
+There are no more orders<color\=#00000000></color>=没有更多的订单<color\=#00000000></color>
+Start Service Checklist=开始营业清单
+Continue=继续阅读
+Common=普通
+Rare=稀有
+Use directional keys to hit the red arrows as they move over the stationary arrows. Hitting the correct key increases dish quality. Missing arrows or hitting the incorrect key will decrease dish quality.=当红色箭头移动到空白箭头处时，使用<color\=white>方向键</color>点击红色箭头。按下正确的方向键可<color\=green>提高菜肴品质</color>。箭头错位或按错方向键会<color\=red>降低菜肴品质</color>。
+Unlocked AUTOCOOK for=解锁自动烹饪
+Recipes That Use=食谱需要
+ORDERS=订单
+COOKING=烹饪
+Autocook :\n\nActivate to skip minigames. Dish quality will be assigned a random value, based your your Cooking level.\n\nMust receive at least 95% dish quality for the minigame, for each rarity to unlock autocook.\n=自动烹饪 :\n\n开启后跳过迷你游戏。菜肴质量将根据你的烹饪等级随机分配一个值。\n\n必须在迷你游戏中获得至少95%的菜肴品质，才能解锁自动烹饪。\n
+OFF=关
+ON=开
+directional keys=.
+decrease dish quality.=.
+increases dish quality=.
+Stamina Will=.
+Break.=.
+As staff members complete tasks during service, their Stamina Will Drain. When stamina is low, the staff member will temporarily Stop All Work and take a Break. As you progress through the game, you can unlock methods of improving the energy levels of staff.=员工在服务过程中完成任务时，<color\=white>体力会消耗</color>。当体力不足时，员工会暂时<color\=white>停止所有工作</color>，<color\=white>休息</color>一下。随着游戏的进行，你可以解锁提高员工体力等级的方法。
+Drain.\n=.
+Tired Icon=疲惫图标
+Stop All Work=.
+Tap X when the red button passes over the hit center ring. The more accurate the hit, the higher the dish quality bonus.=当红色按钮经过命中环时，点击 <color\=white>X</color> 键。命中率越高，菜肴品质奖励就越高。
+Hit Center=命中环
+Stove=炉灶
+Tap X to Hit=点击 X
+X=.
+Target=目标
+Mouse Button=.
+Face a body of water and hold Mouse Button to charge power. The higher the power, the further the hook will land.=面对水面，按住<color\=white>鼠标按键</color>蓄力。蓄力越高，鱼钩抛得越远。
+Power Bar=蓄力条
+Wait for a fish to bite. When the hook is pulled Below Water, hit the Mouse Key to begin reeling the fish in.=等待鱼咬钩。当鱼钩被拉到<color\=white>水下</color>时，点击<color\=white>鼠标按键</color>开始收线。
+Below Water=.
+Mouse Key=.
+Arrow Keys=.
+When hooked, the fish will try to escape. Use the Arrow Keys to keep the fish inside the circle and fill the progress bar.=当鱼上钩后，它们会试图挣脱。使用<color\=white>方向键</color>将鱼保持在圆圈内充满进度条。
+Progress=进度条
+Bow=.
+A variety of huntable animals roam the wild. To use a Bow, hold the Mouse Key to begin aiming. Release the button to shoot an arrow.=各种可狩猎的动物在野外游荡。要使用<color\=white>弓箭</color>，按住鼠标按键开始瞄准。松开按钮即可射箭。
+A variety of edible vegetation can be harvested in the wild. With a Scythe equipped, face the plant and use the Mouse Key to harvest. Certain plants can be harvested by hand.=在野外可以收获各种可食用的植物。装备<color\=white>镰刀</color>后，面对植物使用鼠标按键进行收割。某些植物可以徒手采摘。
+Scythe=.
+Random Ingredients=随机食材
+The ingredients on the left side panel are the ingredients required for this dish. The ingredients in the middle panel are randomized. Tap X when the arrow is above on ingredient to drop it into the blender. Hitting a correct ingredient will increase dish quality and hitting an incorrect ingredient will decrease dish quality.=左侧面板上的食材是这饮料所需的食材。中间面板上的食材是随机的。当箭头在食材上方时，点 <color\=white>X</color> 可将其放入搅拌机。点击正确的食材会<color\=green>提高饮料品质</color>，点击错误的食材会<color\=red>降低饮料品质</color>。
+increase dish quality=.
+quality.=.
+decrease dish=.
+Dish Ingredients=饮料食材
+increase=.
+Current Heat Level=当前温度
+decrease.=.
+Target heat level=目标温度
+Hold X to increase the heat level. When the arrow hovers over the moving target, the dish quality will increase. Otherwise, the dish quality will decrease.=按住 <color\=white>X</color> 增加温度。当箭头悬停在移动目标上时，菜肴质量将<color\=green>提高</color>。否则菜肴质量将<color\=red>下降</color>。
+SIZZLE!=过低！
+SWEET!=正好！
+NICE!=不错！
+HOT!=过热！
+
+The closer the heat level is to the center=.
+mouse=.
+left-click=.
+Left-click=.
+Grill=烤架
+Grill the ingredients and prevent them from burning. When ingredients are on the grill, their temperature will continuously increase until they start to burn. Move the tongs with the mouse and left-click to grab an ingredient. When picked up, the temperature of the ingredient will lower. Left-click again to drop the ingredient on the grill. The closer the heat level is to the center of the two yellow bars, the higher the dish quality.=烧烤食材，防止其烧焦。食材放在烤架上时，温度会不断升高，直至开始炙烤。用鼠标移动钳子，<color\=white>左键点击</color>即可夹起食材。夹起后，食材的温度会降低。再次<color\=white>左键点击</color>将食材放到烤架上。<color\=green>温度越接近<color\=yellow>两根黄条</color>的中央，烧烤菜肴的品质就越高。</color>
+Tongs=钳子
+Raw=生食
+Cooked=熟食
+Burning=烧焦
+two yellow bars=.
+of the two yellow bars, the higher the dish quality.=.
+
+For parties involving a group of guests, a Stage needs to be placed in the restaurant. Toggle service mode to 'Party' to host an event. The success of a party depends on how accuratly the Food Type and Decor Type matches the host's requirements.=如果要举办有一群客人参加的派对，则需要在餐厅内放置一个<color\=white>舞台</color>。将服务模式切换为<color\=white>'派对'</color>即可举办活动。派对的成功与否取决于<color\=white>食物类型</color>和<color\=white>装饰类型</color>与主人要求的匹配程度。
+Decor Type\n=.
+'Party'=.
+Food=.
+Stage=.
+Type=.
+
+Water Can=喷壶
+Seeds=.
+Greenhouse=.
+To begin farming, you can purchase Seeds from April at her home. A Watering Can is required for farming and a Spade can be used to clear plants. Head into the Greenhouse when ready.=要开始耕种，你可以在小镇西边的\n家中购买<color\=white>种子</color>。浇灌作物需要一个<color\=white>喷壶</color>，清理植物需要用     。准备就绪后进入<color\=white>温室</color>。
+Watering Can=.
+Spade=铲子
+Begin Farming=开始耕种
+To begin farming, place seeds inside the Consumables Panel. Press Number Keys to select the seed to plant.=要开始耕种，请将种子放入<color\=white>消耗品快捷栏</color>内。按<color\=white>数字键</color>选择要播种的种子。
+Consumables=.
+Panel.=.
+Number Keys=.
+Sink.\n=.
+Water Source=   水源
+Watering=.
+Plants require water to grow. With a Watering Can equipped, collect water from the Sink.=植物生长需要水。装备<color\=white>喷壶</color>后，从<color\=white>水槽</color>中收集水。
+Can=.
+Plants can be enhanced using Compost. Place Ingredients and Consumables inside the compost bin. Wait a few hours for the compost to be created. When you have compost in your inventory, you can use it when planting seeds.=\n  使用<color\=white>      </color>可以增强植物的生长。将<color\=white>原料</color>和<color\=white>消耗品</color>放入堆肥箱。等待几个小时，堆肥就会产生。当你的库存中有堆肥时，你就可以在播种时使用它。
+Compost=堆肥
+Collect materials and bring them to Bianca at Bits & Pieces to craft brewing machines. For most alcohols, 3 machines are required to brew the alcohol from beginning to end.=收集材料并将它们带到<color\=white>数码元件</color>的     卡处，制作酿造机。对于大多数酒水，需要3台机器才能从头到尾酿造出酒。
+Begin Brewing=开始酿造
+Bits & Pieces=.
+When you have the required Ingredients in the refrigerator and the required Cooking Appliances placed inside the restaurant, you can select the Dishes for your restaurant menu.=当您在冰箱中放置所需的食材和所需的烹饪器具时，您可为您的餐厅菜单选择      的菜肴。
+Boiler\n=.
+Fruit Press=水果压榨机
+Bring ingredients inside either a Boiler or a Fruit Press to begin the brewing process. Depending on the ingredient and the process selected, a different brewing product will be produced.=将原料带入<color\=white>锅炉</color>或，\n\n\n\n开始酿造。根据原料和所选工艺的不同，会产生不同的酿造产品。
+Brewing Phase 1=酿造阶段 一
+Place the brewing product produced from phase 1 in the Fermentation Tank. After some time has passed, the brewing product will be fermented and ready to be collected.=将第一阶段生产的酿造产品放入<color\=white>发酵罐</color>中。一段时间后，酿造产品将发酵完毕，可以收集了。
+Fermentation Tank.=.
+Brewing Phase 2=酿造阶段 二
+Aging=.
+Barrel=.
+Distiller=蒸馏器
+Place the fermented brewing product from phase 2 in either an Aging Barrel of a Distiller. After some time has passed, the brew will be complete and ready to be collected.=将第二阶段的发酵酿造产品放入<color\=white>陈酿桶</color>或<color\=white>蒸馏器</color>中。一段时间后，酿造完成，即可收集。
+Brewing Phase 3=酿造阶段 三
+Useful for producing mash in alcohol production. (Brewing Phase 1)=在酒精生产过程中，可用于生产醪液。（酿造阶段1）
+Boiling Vat=蒸煮罐
+For the final step of brewing alcohol. (Brewing Phase 3)=酿造酒精的最后一步。（酿造阶段3）
+For aging wines and ciders. (Brewing Phase 3)=用于陈酿葡萄酒和苹果酒。（酿酒阶段3）
+Aging Barrels=陈酿桶
+Used for the fermentation process during alcohol production. (Brewing Phase 2)=在酒精生产过程中，可用于发酵。（酿造阶段2）
+Fermentation Tank=发酵罐
+For juicing fruits to create wines or ciders. (Brewing Phase 1)=用于榨汁水果以酿造葡萄酒或苹果酒。 （酿造阶段1）
+Bring at least 5 Sulfur, and 3 different Fragrant Ingredients (at least 5 of each) to the Bath Blok Maker to begin making Bath Bloks.=将至少<color\=white>5个硫磺</color>和<color\=white>3个</color>不同的<color\=white>香味配料</color>（每种至少5个）带到<color\=white>浴块制造机</color>前，开始制作<color\=white>浴块</color>。
+Fragrant Ingredients=.
+Bath Bloks.=.
+x 5 Each=每5个
+5 Sulfur=.
+Bath Blok=.
+Maker=.
+
+
+
+
+Ingredients\nWages\nUtilities\nFood Revenue\nGratuity=<b><size\=6>食材成本\n工资支出\n水电支出\n餐饮收入\n小费收入</size></b>
+Served Dishes=<b>提供菜肴</b>
+Length\nCustomers\nTotal Dishes\nDish Quality\nSatisfaction\n\n=<b><size\=6>开店时长\n顾客总数\n菜肴总数\n菜肴品质\n顾客满意度\n\n</size></b>
+Reputation Change=<b><size\=6>声誉变化</size></b>
+Event=<b><size\=6>活动内容</size></b>
+Profit\nCredits Gain=<b><size\=6>实际利润\n积分收入</size></b>
+Reputation=<b><size\=6>声誉</size></b>
+已服务\r\n未服务\r\n早退\r\nAvg. Wait Time=<b><size\=6>已服务\r\n未服务\r\n早退\r\n平均等待时间</size></b>
+Dish Quality\nDecor\nWait Time\nEvent\nForce Close=<b><size\=6>菜肴品质\n装饰\n等待时间\n活动\n强制关店</size></b>
+菜肴盘数\r\n开胃菜\r\n主菜\r\n甜点\r\n饮料=<b><size\=6>菜肴盘数\n开胃菜\n主菜\n甜品\n饮料</size></b>
+员工总数\r\n厨师工资\r\n服务员工资\r\n音乐=<b><size\=6>员工总数\n厨师工资\n服务员工资\n音乐</size></b>
+开始时间\r\n结束时间=<b><size\=6>开始时间\n结束时间</size></b>
+菜肴盘数\r\n您的菜肴\r\n员工菜肴=<b><size\=6>菜肴盘数\n您的菜肴\n员工菜肴</size></b>
+您的菜肴\r\n满意度\r\n装饰=<b><size\=6>您的菜肴\n满意度\n装饰</size></b>
+
+
+
+Load=加载
+Empty Slot=空栏位
+Save=保存
+Clear=清除
+Overwrite Save Slot?=覆盖保存栏位？
+
+Operation Mode\n=运营模式\n
+Appetizers\nMain Course\nDesserts\nBeverages=开胃菜\n主菜\n甜品\n饮料
+Teahouse=茶馆
+1 to 3 drinks will be ordered.\n+5% To Final Customer Satisfaction.=会下单1到3杯饮料。\n+5%顾客满意度。
+Social House=聚会
+Appetizers and Mains will always\nbe ordered.\n+15% Earnings from Main Courses.=总会下单开胃菜和主菜。\n+15%的主菜收入。
+Confectionery=甜品店
+1 to 5 drinks can be ordered.\n+10% Earnings from drinks.=会下单1到5杯饮料。\n+10%的饮料收入。
+Pub=酒馆
+1 to 3 desserts can be ordered.\n+20% Dessert cook speed.=会下单1到3个甜点。\n+20%的甜品烹饪速度。
++5% Earnings from all orders.\n+15% Beverage Preperation speed.=+5%的订单收入。\n+15%的饮料制作速度。
+
+
+(Critic)\n=(Critic)\n
+\n\nView the total amount of available dishes in the menu, based on the remaining ingredients.\n=\n\n查看菜单中可用的菜肴的总数，基于剩余的食材。\n
+Right Click or drag tool into Toolslot to use. Right Click to equip tool, and Left Click to use Tool.=右键单击或拖动工具到工具槽位中使用。右键单击以装备工具，左键单击以使用工具。
+
+
+Go To Sleep?=睡一觉？
+3 Weeks Earlier . . .=三周前…
+4 Years Earlier . . .=四年前…
+4 Months Earlier . . .=四个月前…
+2 Months Earlier . . .=两个月前…
+
+
+BELLPEPPER=甜椒
+
+
+-餐厅设备-
+Counter=柜台
+Cooking Counter=烹饪柜台
+Tea Dispenser=茶饮机
+Can store tea to help staff members recover energy during service.=可储存茶水，帮助工作人员在服务期间恢复体力。
+Coffee Dispenser=咖啡机
+Can store coffee to help staff members recover energy during service.=可以储存咖啡，帮助工作人员在服务期间恢复体力。
+Flour Mill=面粉机
+Used for converting grains to flour.=用于将谷物转化为面粉。
+Brewing Recipes=酿造配方
+Phase 1=第一阶段
+Phase 2=第二阶段
+Phase 3=第三阶段
+
+温室
+Small Sprinkler=小型洒水器
+Water plants in a 3x3 area=浇灌3x3区域内的作物
+Large Sprinkler=大型洒水器
+Water plants in a 5x5 area=浇灌5x5区域内的作物
+
+
+家装艺廊
+SELL=出售
+BUY=购买
+-家具-
+Kitchen Cabinet=厨柜
+Good for storing your kitchenware.=非常适合存放你的厨具。
+Futon Bed=日式床垫
+A simple mat to sleep on.=睡觉用的简易垫子。
+Wooden Bench=木制长凳
+It's uncomfortable to sit on this for too long.=坐久了会不舒服。
+Brown Kitchen Sink=棕色厨房水槽
+Small kitchen for your home.=适合您家的小厨房。
+Red Bed=红色床铺
+Green Bed=绿色床铺
+A minimalist bed from IKOA.=来自艺家的简约床。
+Blue Closet=蓝色衣柜
+Wooden Bookcase=木制书架
+Good for storing your books. Duh.=适合存放书籍。
+Brown Closet=棕色衣柜
+Throw in your junk and never seen them again.=扔进垃圾桶，再也见不到他们了。
+Green Velvet Couch=绿色天鹅绒沙发
+A comfy green couch.=一张舒适的绿色沙发。
+Small Fridge=小型冰箱
+Can store some food.=可以存放一些食物。
+Standing Shower=立式淋浴间
+A quick shower helps to rejuvenate your energy.=快速淋浴有助于恢复你的能量。
+Titanium Frame Bed=钛框架床
+A heavy, titanium-framed bed with a cyberpunk design.=一张厚重的钛架床，采用赛博朋克设计。
+Retro TV=复古电视
+This one is still in a pretty good condition.=这机子的状态还不错。
+Retrofuturistic TV=复古风格电视
+A stylized TV from a bygone era.=一个旧时代风格的电视机。
+Flatscreen TV=平板电视
+So many pixels!=如此多的像素！
+Modern Chic Couch=现代时尚沙发
+A sleek yellow couch with a leather finish.=时尚的黄色真皮沙发。
+Purple Chic Couch=紫色时尚沙发
+A sleek purple couch with a leather finish.=时尚的紫色真皮沙发。
+Gold Velvet Couch=金色丝绒沙发
+This couch sparkles under the light.=这张沙发在灯光下闪闪发光。
+Red Brick Furnace=红砖炉
+It reminds you of Le Sequoia . . .=它让你想起红杉馆…
+
+-厨具设备-
+Oak Chef Counter=橡木厨师柜台
+Basic cooking counter for preparing cold dishes.=准备凉菜的基本烹饪柜台。
+Kitchen Counter=厨房柜台
+Place completed dishes here to be picked up by the waiter.=把完成的菜肴子放在这里，让服务员拿取。
+Oven=烤箱
+Good for everyday baking.=适合日常烘焙。
+Cooking Stove=烹饪炉灶
+Good for everyday cooking.=适合日常烹饪。
+Barista Machine=咖啡机
+Creates the highest quality coffee.=冲出最优质的咖啡。
+Blender=搅拌机
+Can make a variety of beverages.=可以制作各种饮料。
+Charcoal Grill=木炭烤架
+Time for some BBQ!=吃烧烤的时间到了！
+Ice Cream Maker=冰淇淋机
+Better not eat too much...=最好不要吃太多…
+Frier F-550=炸锅 F-550
+Popular frier used in fast food restaurants.=在快餐店中流行使用的F-550型号油炸设备。
+Wooden Steamer=木制蒸笼
+Steams food by boiling water.=用开水蒸食物。
+
+-餐桌-
+White Cloth Table=白布餐桌
+A simple table covered with white cloth.=一张用白布覆盖的简单桌子。
+Red Table=红色餐桌
+A cheap plastic table painted red.=一张被涂成红色的便宜塑料桌子。
+Wooden Table=木制餐桌
+It's a simple wooden table.=这是一张简单的木桌。
+Cloth Table=格子布桌
+Classic table that seats 4 people.=经典的桌子，可容纳四人就餐。
+Diner Table=餐厅餐桌
+A red cloth table from a retro diner.=一张来自复古餐厅的红布餐桌。
+Fancy Cloth Table=奢华布桌
+It's an old table with an elegant cloth cover.=这是一张旧桌子，餐布很雅致。
+Light Industrial Table=轻工业桌
+A wooden table with a black metal frame.=一张有黑色金属框架的木桌。
+Purple Glass Table=紫色玻璃餐桌
+A sleek table with a glass finish.=一张光滑的桌子，玻璃饰面。
+Maple Table=枫木餐桌
+A sturdy hardwood table.=一张坚固的硬木桌子。
+Charred Timber Table=焦木餐桌
+Yellow Cloth Table=黄布餐桌
+Dining table for a tradition restaurant.=传统餐厅的餐桌。
+Blue Cloth Table=蓝布餐桌
+Redwood Table=红木餐桌
+Crimson wood table with an elgant engraving.=深红色的木桌，镶有精雕细琢的图案。
+Vintage Maple Table=复古枫木餐桌
+An elegant table from a past era.=一张旧时代的优雅桌子。
+Elegant French Table=优雅法式餐桌
+Carved wood table with a green crystal finish.=木雕餐桌，绿色水晶饰面。
+Green Club Table=绿色俱乐部桌
+Cool hip table with a vibrant color.=酷酷的时髦桌子，色彩鲜艳。
+Exquisite Gold Table=精致金色餐桌
+Seats 4 people.=可容纳四人就餐。
+
+-餐椅-
+Maple Chair=枫叶椅子
+Finely crafted wooden chair.=精心制作的木椅。
+Vintage Yellow Chair=复古黄色椅子
+A leather chair that is dyed yellow.=一种被染成黄色的皮椅。
+Wooden Chair=木椅
+Nice woonden chair.=漂亮的椅子。
+Vintage Magenta Chair=复古洋红椅子
+Awesome vintage chair that will liven up any room.=很棒的复古椅子，会让任何房间都充满活力。
+Redwood Chair=红木椅子
+Made from a crimson colored wood.=由深红色木材制成。
+Vintage Red Chair=复古红色椅子
+Beautiful chair from a glorious era.=辉煌的时代的美丽椅子。
+Green Velvet Chair=绿色天鹅绒椅子
+Silky and smooth.=丝滑光滑。
+Straw Cushion Chair=草垫椅子
+An oak chair with straw padding.=有草垫的橡木椅子。
+Modern Orange Chair=现代橙色椅子
+A leather chair with a sleak modern design.=一款采用现代设计的皮椅。
+Ultraviolet Leather Chair=紫外线皮革椅子
+Plush leather chair for maximum comfort.=豪华皮椅，最大程度地舒适。
+Elegant French Chair=优雅法式椅子
+An elegant chair for a classic French restaurant.=经典的法国餐厅的优雅椅子。
+Purple Club Chair=紫色俱乐部椅子
+A cool and jazzy chair.=很酷很酷的椅子。
+Exquisite Gold Chair=精致金色椅子
+Beautiful chair finished with gold leaf.=用金箔装饰的漂亮椅子。
+
+
+-地板-
+Blue Floor Tile=蓝色地板
+It's a porcelain tile.=那是一块瓷砖。
+Purple Floor Tile=紫色地板
+Wood Floor Tile=木制地板
+It's a wooden tile.=那是一块木地板。
+Wooden Stage=木制舞台
+A stage used for events. It is made of wood.=用于举办活动的舞台。它由木头制成。
+Charred Wood Stage=焦木舞台
+Purple Stage=紫色舞台
+
+-装饰物-
+Small Bronze Counter=小型青铜柜台
+Can place things on here.=可以把东西放在这里。
+Colored Balloons Small=小型彩色气球
+White Balloons Small=小型色气球
+Brown Barrel=棕桶
+Green Barrel=绿桶
+Red Barrel=红桶
+It's an old wooden barrel.=这是一个古老的木桶。
+Glass Stand=玻璃展台
+Can put some stuff here.=你可以在这里放一些东西。
+Small TV=小型电视
+It's a tiny TV. Does anyone still use this?=那是一台小电视。 还有人用这个吗？
+Table With Candles=带蜡烛的桌子
+Romantic.=浪漫。
+Wooden Lamp=木制灯具
+It's a rustic old lamp.=那是一盏质朴的老灯。
+Steel Cabinet (Med)=钢制橱柜（中型）
+Good storage for your cookware.=很好的存储你的厨具。
+Bronze Furnace=铜炉
+Provides warmth during the cold months.=在寒冷的月份提供温暖。
+Copper Floor Lamp=铜质落地灯
+A copper floor lamp useful for lighting small spaces.=一种铜制落地灯，可用于照亮小空间。
+Wooden Floor Lamp=木制落地灯
+A wooden floor lamp useful for lighting small spaces.=一种用于照亮小空间的木制落地灯。
+Stuffed Penguin Toy=毛绒企鹅玩偶
+Squeezable!=吓死我了！
+Colored Balloons Large=大型彩色气球
+White Balloons Large=大型白色气球
+It's a bunch of colored balloons.=是一堆彩色气球。
+Single Wine Barrel=单酒桶
+A decorative wine barrel. Unfortunately it's empty.=一个装饰酒桶。可惜是空的。
+Double Wine Barrels=双酒桶
+Decorative wine barrels. Unfortunately it's empty.=两个装饰酒桶。可惜是空的。
+Candy Machine=糖果机
+It looks like it's filled with gumballs.=它看起来像是装满了口香糖。
+Upholstered Purple Column=软垫紫柱
+A beautiful column wrapped in a purple cloth.=用紫布包裹的美丽柱子。
+Ionic Column=古希腊柱
+A traditional marble column carved in the Ionic order.=以爱奥尼克式雕刻的传统大理石柱。
+Fish Tank A (Medium)=鱼缸A（中型）
+There's some clownfish in here.=这里面有小丑鱼。
+Fish Tank B (Medium)=鱼缸B（中型）
+Just keep swimming.=继续游泳。
+Fish Tank C (Medium)=鱼缸C（中型）
+It's a tiny world for fish.=对于鱼来说，这是一个小小的世界。
+Emerald Display Case=绿宝石展柜
+An emaculate emerald displayed in a glass case.=玻璃柜中展示的无暇绿宝石。
+Ruby Display Case=红宝石展柜
+Ruby Display Case=红宝石展柜=玻璃柜中展示的无暇红宝石。
+Sapphire Display Case=蓝宝石展示柜
+Sapphire Display Case=蓝宝石展柜=玻璃柜中展示的无暇蓝宝石。
+French Street Lamp=法国路灯
+Beautiful traditional street lamp.=美丽的传统路灯。
+Beautiful traditional street lamp. This one is painted green.=美丽的传统路灯。 这一个被漆成绿色。
+Doric Column=新古典柱
+A traditional marble column carved in the Doric order.=以多利安式雕刻的传统的大理石圆柱。
+Witch's Cauldron=巫婆坩埚
+There is a strange smell coming from this.=有一种奇怪的气味从它这里冒出来。
+Vending Machine Type Z=自动售货机Z型
+Medium sized vending machine for dispensing beverages.=用于分配饮料的中型自动售货机。
+Christmas Tree=圣诞树
+A beautifully decorated pine tree. Joyful!=装饰精美的松树。快乐！
+Large Stone Oven=大型石砖烤炉
+A large decorative oven.=一个大的装饰烤箱。
+Retro Jukebox=复古点唱机
+This has all the old classics.=这里有所有的经典老歌。
+Grand Fountain=大喷泉
+Beautiful water fountain for your decorative needs.=美丽的喷泉满足你的装饰需求。
+Wooden Wine Vat=木制酒桶
+Create your own wines.=酿造你自己的葡萄酒。
+Golden Column=金柱
+Marble column finished with gold leaf.=用金箔装饰的大理石柱。
+Beer Vat Chrome=啤酒罐
+A decorative beer vat.=一个装饰性的啤酒罐。
+Drink-O-Matic=自动饮料机
+For storing tasty cold beverages.=用于储存美味的冷饮。
+Grand Distillery=大型酿酒机
+A large decorative distillery.=大型装饰性酿酒设备
+
+-盆栽-
+Potted Plant 1=植物盆栽 1
+Liven up your room!=清新你的房间!
+Flower Planter A=花卉盆栽A
+Bringing nature to your restaurant.=把大自然带到你的餐厅。
+Autumn Hedge=秋天树篱
+Spring Hedge=春天树篱
+A neatly trimmed hedge.=修剪整齐的树篱。
+Potted Tree=树盆栽
+It's a miniature, orange-leafed tree.=这是一棵橙叶的微型树。
+It's a miniature, green-leafed tree.=这是一棵绿叶的微型树。
+Daffodil Stand=水仙花盆栽
+Mallow Stand=锦葵花盆栽
+Primrose Stand=报春花盆栽
+Rose Stand=玫瑰花盆栽
+Sunflower Stand=向日葵盆栽
+A potted flower on a wooden stand.=木架上的花卉盆栽。
+Dwarf Tree (Fall)=秋天矮树
+Dwarf Tree (Spring)=春天矮树
+It's a tiny tree.=那是一棵小树。
+Potted Cactus=仙人掌盆栽
+Better be careful around this.=你最好小心这个。
+Mini Ginkgo Tree=迷你银杏树盆栽
+A delicate and beautiful tree from Asia.=这是一种来自亚洲的精致美丽的树种。
+
+-高志农场-
+Rare Machine=稀有机器
+Epic Machine=史诗机器
+Porcelain Vase Yellow=黄色陶瓷花瓶
+Porcelain Vase Orange=橙色陶瓷花瓶
+Porcelain Vase Cyan=青色陶瓷花瓶
+Porcelain Vase Magenta=粉色陶瓷花瓶
+A beautifully crafted vase.=精美的花瓶。
+Metal Tree Sculpture=金属树雕塑
+Is this better than a real tree?=这比一棵真正的树好吗？
+Spiral Sculpture=螺旋雕塑
+Is this a modern art masterpiece?=这是现代艺术的杰作吗？
+Giant Head Sculpture=巨头雕塑
+A large head made of bronze.=青铜制成的大脑袋。
+Cubes Sculpture=立方体雕塑
+What is the deeper meaning behind a series of colored cubes?=一系列彩色立方体背后的深层含义是什么？
+Balloons Sculpture=气球雕塑
+A sculpture made of metal balloons.=由金属气球制成的雕塑。
+Crystal Emerald Sculpture=水晶翡翠雕塑
+A crystal sculpture infused with emerald dust.=注入翡翠粉末的水晶雕塑。
+Quartz Head Lamp=石英柱灯
+A metal lamp adorned with a complex quartz design.=金属灯上装饰着复杂的石英图案。
+Elegant Copper Lamp=优雅铜灯
+A beautiful floor lamp with a quartz dome.=一盏漂亮的落地灯，带有石英圆顶。
+Crystal Emerald Lamp=水晶绿宝石灯
+A hand-crafted crystal lamp infused with emerald dust.=一种手工制作的水晶灯，注入翡翠粉末。
+Crystal Emerald Mountain=水晶翡翠山
+A small crystal mountain infused with emerald dust.=一座注入翡翠粉尘的水晶小山。
+Crystal Ruby Sculpture=水晶红宝石雕塑
+A crystal sculpture infused with ruby dust.=注入红宝石粉末的水晶雕塑。
+A small crystal mountain infused with ruby dust.=一座注入红宝石粉末的水晶小山。
+Fancy Vase Yellow=黄色精美花瓶
+Fancy Vase Orange=橙色精美花瓶
+Fancy Vase Magenta=粉色精美花瓶
+Fancy Vase Cyan=青色精美花瓶
+Crystal Ruby Lamp=水晶红宝石灯
+A hand-crafted crystal lamp infused with ruby dust.=一种手工制作的水晶灯，注入红宝石粉末。
+Crystal Ruby Mountain=水晶红宝石山
+A small crystal mountain infused with emerald dust.=一座注入红宝石粉尘的水晶小山。
+Twisted Root Torch=扭根火炬
+An elegant torch formed from tree roots.=火把由树根形成的优雅的火把。
+Twisted Root Lamp=双绞根灯
+An elegant lamp formed from tree roots.=一盏由树根形成的优雅的灯。
+Twisted Trunk Lamp=缠绕树干灯
+A hand-crafted floor lamp woven from plant roots.=用植物根编织的手工落地灯。
+Snow Globe Tree=雪球树
+Snow Globe House=雪球屋
+It's a giant Christmas snowglobe.=这是一个巨大的圣诞雪球。
+
+
+
+
+
+
+-博物馆-
+My Buddhist friend went to the pizza restaurant and said 'Make me one with everything.'=我的佛教朋友去了一家披萨店，然后说：“给我做一份包含世间一切的披萨。”
+Andrew Ginster=安德鲁·金斯特
+HALL OF CHEFS=厨师大厅
+This is a temporary exhibition showcasing the great chefs who have graduated from the Billboard City Culinary Academy, as well as significant supporters of the school.=这是一个临时展览，展示从霓虹城烹饪学院毕业的杰出厨师，以及对学校有重大贡献的支持者。
+Isaac Steffert=艾萨克·斯特弗特
+Life is like soup - It’s best when shared with others!=生活就像这碗汤一样 - 与他人分享时最好喝！
+The only thing better than chocolate? More chocolate.=唯一比巧克力更好的东西？是更多的巧克力。
+Arya Andre Akhavan=阿里亚·安德烈·阿卡万
+Eden R.=伊登·R·伊登
+'Stew soothes the weary soul.'='炖菜能抚慰疲惫的灵魂。'
+Owner of Karelian Test Kitchen.\r\nLeiby-suolu syöjile (enjoy your meal).\r\n=卡累利阿测试厨房。Leiby-suolu syöjile（享受您的美食）。\r\n
+Trokhima “Trofim” Tapio Tsutsune=特洛基马"特洛菲姆" 塔皮奥·茨内
+A wise fisherman once told me 'If it smells, it sells'.=一位聪明的渔夫曾经对我说:"如果它闻着很新鲜，它才能卖得上价钱'。
+SharkyGames=鲨鱼游戏
+HEAD CHEFS=首席厨师
+'Dunno why ev'rthing I bake smells like cinnamon . . . Oh well, long as m' kid likes it I can't really complain.~'="Dunno“不知道我烤的所有东西为什么都有一股肉桂味……算了，只要我的孩子喜欢就好，我不能抱怨什么。”
+Katherine L.=凯瑟琳·L.
+
+HEAD CHEFS=首席厨师
+A. Erdmann\r\nAchunkeemunkee (SR)\r\nAdam Cole Maynard\r\nAdam Mikoa‚ajczyk\r\nAdamEPlays\r\nAdjudicator\r\nAdrian Cordova\r\nAE—YA­\r\nAhazul\r\nAi Tomita\r\nAim\r\nAimlessheart\r\nAiwA«lin\r\nAja Reichenbach\r\najamaistien\r\nAki S.\r\nAkos\r\nAl3X4NDR0S\r\nAlex Jacobs\r\nAlex Murphy\r\nAlex Smith\r\nAlexa Heskett\r\nAlexis â€ceBruce!!!a€ Lee\r\n=A. Erdmann\r\nAchunkeemunkee (SR)\r\nAdam Cole Maynard\r\nAdam Mikoa‚ajczyk\r\nAdamEPlays\r\nAdjudicator\r\nAdrian Cordova\r\nAE—YA­\r\nAhazul\r\nAi Tomita\r\nAim\r\nAimlessheart\r\nAiwA«lin\r\nAja Reichenbach\r\najamaistien\r\nAki S.\r\nAkos\r\nAl3X4NDR0S\r\nAlex Jacobs\r\nAlex Murphy\r\nAlex Smith\r\nAlexa Heskett\r\nAlexis â€ceBruce!!!a€ Lee\r\n
+BefuddledZipper\r\nBelÃ©n Romero MuÃ±oz\r\nBen Lawson\r\nBenjamin Knickelbine\r\nBentoBox\r\nBethanious\r\nBeze\r\nBig Chest\r\nBlake the Virtuoso\r\nBlasian\r\nBlazeplayyz\r\nBlazijenn\r\nBlueSeer\r\nBo0ots42\r\nBobbyNiku\r\nBre Martin\r\nBreanne Sisson\r\nBrent16\r\nBrewbart\r\nBrian Baterina\r\nBrian Nguyen\r\nBrittany Molenda\r\nBrutalist Architect\r=BefuddledZipper\r\nBelÃ©n Romero MuÃ±oz\r\nBen Lawson\r\nBenjamin Knickelbine\r\nBentoBox\r\nBethanious\r\nBeze\r\nBig Chest\r\nBlake the Virtuoso\r\nBlasian\r\nBlazeplayyz\r\nBlazijenn\r\nBlueSeer\r\nBo0ots42\r\nBobbyNiku\r\nBre Martin\r\nBreanne Sisson\r\nBrent16\r\nBrewbart\r\nBrian Baterina\r\nBrian Nguyen\r\nBrittany Molenda\r\nBrutalist Architect\r
+Ali\r\nAlicia Yeo Xiu Hui\r\nAlNeg9956\r\nAlysha Lancaster\r\nAlyssa E.\r\nAmanda Tinsley\r\nAmelia H\r\nAmelie SchrÃ¶der \r\nAmy Driedger\r\nAmy Fitzgerald\r\nAndrew  'Jinx ' Browning\r\nAndrew Ginster\r\nAndroidK18\r\nAndy Meyer\r\nAngelique Scott \r\nanimalsinsuits\r\nAnna Moreau\r\nAnna Tang\r\nAnnehelsing\r\nAntoni Ferragut\r\nAntonio Auson\r\nAntonio Esteban\r\napierzch\r\n=Ali\r\nAlicia Yeo Xiu Hui\r\nAlNeg9956\r\nAlysha Lancaster\r\nAlyssa E.\r\nAmanda Tinsley\r\nAmelia H\r\nAmelie SchrÃ¶der \r\nAmy Driedger\r\nAmy Fitzgerald\r\nAndrew  'Jinx ' Browning\r\nAndrew Ginster\r\nAndroidK18\r\nAndy Meyer\r\nAngelique Scott \r\nanimalsinsuits\r\nAnna Moreau\r\nAnna Tang\r\nAnnehelsing\r\nAntoni Ferragut\r\nAntonio Auson\r\nAntonio Esteban\r\napierzch\r\n
+April Lynne  'Sunraiser ' Robichaud\nAquaTail\nAra the Elf\nArielleVb\nArne Gehrking\nArok Dragoon\nArphollik\nArthanc\nArtius Drake\nArya Akhavan\nasdfghjklibbyx\nAsh Sevier\nAshFro\nAshley Froberg\nAubrey Carver\nAudrey\nAura Fairwind\nAyu-Chan\nBaron\nBarxBaron\nBatkinz\nBeau Fink\n=April Lynne  'Sunraiser ' Robichaud\nAquaTail\nAra the Elf\nArielleVb\nArne Gehrking\nArok Dragoon\nArphollik\nArthanc\nArtius Drake\nArya Akhavan\nasdfghjklibbyx\nAsh Sevier\nAshFro\nAshley Froberg\nAubrey Carver\nAudrey\nAura Fairwind\nAyu-Chan\nBaron\nBarxBaron\nBatkinz\nBeau Fink\n
+
+
+Coalhobbler\nCoaster Nine\nCoconutMeat\nColton Santa Cruz\nConaire Keller\nCortney Crego\nCrazyDriveIn TTV\nCristobal  'Dean ' Lange\nCross Shelatz\nCrysnia Nightfall\nCrystal Przybyciel\nCynthia Rodgers\nCyprin Moonstar\nDafydd\nDakota\nDan  'Syn ' Goodall\nDan chapman\nDana Novak\nDaniel B\nDaniel Gibson\nDaniel Keogh\nDanielbgoo\nDanrell Kinch\n=Coalhobbler\nCoaster Nine\nCoconutMeat\nColton Santa Cruz\nConaire Keller\nCortney Crego\nCrazyDriveIn TTV\nCristobal  'Dean ' Lange\nCross Shelatz\nCrysnia Nightfall\nCrystal Przybyciel\nCynthia Rodgers\nCyprin Moonstar\nDafydd\nDakota\nDan  'Syn ' Goodall\nDan chapman\nDana Novak\nDaniel B\nDaniel Gibson\nDaniel Keogh\nDanielbgoo\nDanrell Kinch\n
+ChaosFreyja\r\nchar\r\nCharles\r\nCharles Dority\r\nCharlie Grace\r\nCharlotte Nachtegael\r\nCharming Darling\r\nCharxyaz\r\nChef Amba Yaga\r\nChef Biscuit \r\nChef Charsity\r\nChef Leafy\r\nChef Marley\r\nChef Maverick\r\nChef Mickey\r\nChef Najarian\r\nChef Pezza\r\nChef Zsolt\r\nChellie Wu\r\nCher Wang\r\nChethia\r\nChi Chi\r\nChickenNuggets\r\n=ChaosFreyja\r\nchar\r\nCharles\r\nCharles Dority\r\nCharlie Grace\r\nCharlotte Nachtegael\r\nCharming Darling\r\nCharxyaz\r\nChef Amba Yaga\r\nChef Biscuit \r\nChef Charsity\r\nChef Leafy\r\nChef Marley\r\nChef Maverick\r\nChef Mickey\r\nChef Najarian\r\nChef Pezza\r\nChef Zsolt\r\nChellie Wu\r\nCher Wang\r\nChethia\r\nChi Chi\r\nChickenNuggets\r\n
+Bryan Smith Jr\r\nBryce Taylor\r\nBryson Hamilton\r\nBuschMerano\r\nCaitlin Seymour\r\nCaleb  'Ryterex ' Obeng\r\nCaleb Paryani\r\nCalibanda\r\nCandy Cap PÃ¢tissier: Simone Tun BS\r\nCareun Bird\r\nCarissa Arakaki\r\nCarissa Arakaki\r\nCarmen Svoboda\r\nCaroline Caceci\r\nCarson Cheng\r\nCassandra Pohlkotte\r\nCassara71\r\nCassie Guo\r\nCatherine Amatangelo\r\nccris20\r\nCelia Gonzalez\r\nCerberus Crossing\r\n=Bryan Smith Jr\r\nBryce Taylor\r\nBryson Hamilton\r\nBuschMerano\r\nCaitlin Seymour\r\nCaleb  'Ryterex ' Obeng\r\nCaleb Paryani\r\nCalibanda\r\nCandy Cap PÃ¢tissier: Simone Tun BS\r\nCareun Bird\r\nCarissa Arakaki\r\nCarissa Arakaki\r\nCarmen Svoboda\r\nCaroline Caceci\r\nCarson Cheng\r\nCassandra Pohlkotte\r\nCassara71\r\nCassie Guo\r\nCatherine Amatangelo\r\nccris20\r\nCelia Gonzalez\r\nCerberus Crossing\r\n
+ChiliCherry\nChipsAHoy\nChloe (Percy) G.\nChloe Plumlee\nChocolate is truly the food of the gods.\nChouchoulove\nChris dryden\nChris Forman Orth\nChris LaGarde\nChris S.\nChris W\nChrissy Da Boo Boo\nChristian Riecke (Vasakralem)\nChristina Henney\nChristina Wood\nChristopher Jung\nChristopher Jung\nchsr357\nCieg\nCJ Ferm\nClio Ophelia Meowington\n=ChiliCherry\nChipsAHoy\nChloe (Percy) G.\nChloe Plumlee\nChocolate is truly the food of the gods.\nChouchoulove\nChris dryden\nChris Forman Orth\nChris LaGarde\nChris S.\nChris W\nChrissy Da Boo Boo\nChristian Riecke (Vasakralem)\nChristina Henney\nChristina Wood\nChristopher Jung\nChristopher Jung\nchsr357\nCieg\nCJ Ferm\nClio Ophelia Meowington\n
+
+Foxtrot1207\r\nFrancis & Lauren\r\nFriedchickenpls\r\nGaA<tan\r\nGab Smolders\r\nGabblicious\r\nGabrielle  'Pavlova ' de Bellefeuille-Jurajuria\r\nGabrielle B.\r\nGael\r\nGalio Ye'vin\r\nGallae_\r\nGamesWithMidori\r\nGarth LaPointe \r\nGee Ling & Jill Wong\r\nGeekxBoy\r\nGheralf H. Swiftwar\r\nGIB\r\nGie\r\nGiff\r\nGina DiCecca\r\nGnarwall\r\ngoldendears\r\n=Foxtrot1207\r\nFrancis & Lauren\r\nFriedchickenpls\r\nGaA<tan\r\nGab Smolders\r\nGabblicious\r\nGabrielle  'Pavlova ' de Bellefeuille-Jurajuria\r\nGabrielle B.\r\nGael\r\nGalio Ye'vin\r\nGallae_\r\nGamesWithMidori\r\nGarth LaPointe \r\nGee Ling & Jill Wong\r\nGeekxBoy\r\nGheralf H. Swiftwar\r\nGIB\r\nGie\r\nGiff\r\nGina DiCecca\r\nGnarwall\r\ngoldendears\r\n
+Dragon359\nDragonwolf_1984\nDread AlThor\nDrunkenFriedRice\nDuke Biggumz\nDuke Flores\nDustin Campbell\nDwarf Villa\nDylan S.\nEbony Nelson\nEbonyChimera\nEddy Dauber\nEiburine\nEl Nomak\nElis\nEliwood Sain\nElizabeth Batts\nEllen Mooney\nEllie Rose\nElyse B\nemjemm\nEmma Russell\nEric Carroll\n=Dragon359\nDragonwolf_1984\nDread AlThor\nDrunkenFriedRice\nDuke Biggumz\nDuke Flores\nDustin Campbell\nDwarf Villa\nDylan S.\nEbony Nelson\nEbonyChimera\nEddy Dauber\nEiburine\nEl Nomak\nElis\nEliwood Sain\nElizabeth Batts\nEllen Mooney\nEllie Rose\nElyse B\nemjemm\nEmma Russell\nEric Carroll\n
+Eric Chavarria\r\nEric So\r\nErica Brown\r\nErin Glass\r\nErin Marek\r\nESS-OAO\r\nEugene Yeoh\r\nEugenius\r\nEuodia Ng\r\nEva\r\nEvamarie B. \r\nevapisces\r\nEvieBlume\r\nexordice\r\nFabian Weiss\r\nFakeTsuki\r\nFandros Draconis\r\nFayeO\r\nFelix  'Faillix ' Heilmann\r\nFernando Trevino Jr\r\nFinn\r\nFlerf Derge\r\nForce Gaia\r\n=Eric Chavarria\r\nEric So\r\nErica Brown\r\nErin Glass\r\nErin Marek\r\nESS-OAO\r\nEugene Yeoh\r\nEugenius\r\nEuodia Ng\r\nEva\r\nEvamarie B. \r\nevapisces\r\nEvieBlume\r\nexordice\r\nFabian Weiss\r\nFakeTsuki\r\nFandros Draconis\r\nFayeO\r\nFelix  'Faillix ' Heilmann\r\nFernando Trevino Jr\r\nFinn\r\nFlerf Derge\r\nForce Gaia\r\n
+Daria Ganley\r\nDarien Brice Dickinson\r\nDarvis\r\nDavid Dryden \r\nDavid Stephen Gentilcore\r\nDavid Wilkinson\r\nDavide Medici\r\nDelani Neal \r\nDEllis\r\nDEN3265\r\nDenholm F\r\nDenise Serrano\r\nDestiny Seay\r\nDevin Talley\r\nDevon Kuplinski\r\nDew :)\r\nDiana Sandres Martinez de Garcia\r\nDoji\r\nDonna Claire\r\nDorothy D.\r\nDr. Giggles\r\nDr. Meep\r\n=Daria Ganley\r\nDarien Brice Dickinson\r\nDarvis\r\nDavid Dryden \r\nDavid Stephen Gentilcore\r\nDavid Wilkinson\r\nDavide Medici\r\nDelani Neal \r\nDEllis\r\nDEN3265\r\nDenholm F\r\nDenise Serrano\r\nDestiny Seay\r\nDevin Talley\r\nDevon Kuplinski\r\nDew :)\r\nDiana Sandres Martinez de Garcia\r\nDoji\r\nDonna Claire\r\nDorothy D.\r\nDr. Giggles\r\nDr. Meep\r\n
+
+Jiping  Xu\r\nJL\r\nJoe Marino\r\njoehang123\r\nJoella (Vorpal Bunny) Ber\r\nJohn Palmer\r\nJohn Palmer\r\nJonah Unterreiner\r\nJonah Unterreiner \r\nJoon Yoon\r\nJordan Springer\r\nJordyn-Rae Morrison\r\nJoshua Lake\r\nJosiah Morgan\r\nJoToMo1993\r\nJu Transcendancing\r\nJulcraftmine\r\nJulia & Marvin\r\nJulia A. Acevedo\r\nJulian Stauffer\r\nJunebug\r\nJurassi\r\njustfireheart13\r\n=Jiping  Xu\r\nJL\r\nJoe Marino\r\njoehang123\r\nJoella (Vorpal Bunny) Ber\r\nJohn Palmer\r\nJohn Palmer\r\nJonah Unterreiner\r\nJonah Unterreiner \r\nJoon Yoon\r\nJordan Springer\r\nJordyn-Rae Morrison\r\nJoshua Lake\r\nJosiah Morgan\r\nJoToMo1993\r\nJu Transcendancing\r\nJulcraftmine\r\nJulia & Marvin\r\nJulia A. Acevedo\r\nJulian Stauffer\r\nJunebug\r\nJurassi\r\njustfireheart13\r\n
+Grace Holly\r\nGrayice608\r\nGreenfro\r\nGrieverValentyn\r\nGuccicado\r\nGulitice\r\nHaafgar, KjA¸kkensjef av vilt jA¸tt\r\nHailey Swain\r\nHaman\r\nHammiam\r\nHannah Mattson\r\nHarley Ganley\r\nHarley-Savana Decarlo\r\nHaru\r\nHazzy\r\nHeartless-Dragon\r\nHeavyn Vanleer\r\nHelena Sifuentes\r\nHelix\r\nHestia BGE\r\nHollis\r\nHolls_99\r\n=Grace Holly\r\nGrayice608\r\nGreenfro\r\nGrieverValentyn\r\nGuccicado\r\nGulitice\r\nHaafgar, KjA¸kkensjef av vilt jA¸tt\r\nHailey Swain\r\nHaman\r\nHammiam\r\nHannah Mattson\r\nHarley Ganley\r\nHarley-Savana Decarlo\r\nHaru\r\nHazzy\r\nHeartless-Dragon\r\nHeavyn Vanleer\r\nHelena Sifuentes\r\nHelix\r\nHestia BGE\r\nHollis\r\nHolls_99\r\n
+Hubert  'Andragor ' Czachnowski\nHyperon\nIan Norton\nIkefes\nInkhorse the Horse Chef\nInnkbean\nIsaac Steffert\nIsabella Pu\nIsi\nIVERINA\nJ.Yao\nJack Zorah\nJackson Niederhauser\nJacob R. Hunter\nJacob Woodfield\nJake Alvarado\nJake Eden\nJames  'Jimothy ' Holloway\nJamesD444\nJamison\nJane Julie McConnell\n=Hubert  'Andragor ' Czachnowski\nHyperon\nIan Norton\nIkefes\nInkhorse the Horse Chef\nInnkbean\nIsaac Steffert\nIsabella Pu\nIsi\nIVERINA\nJ.Yao\nJack Zorah\nJackson Niederhauser\nJacob R. Hunter\nJacob Woodfield\nJake Alvarado\nJake Eden\nJames  'Jimothy ' Holloway\nJamesD444\nJamison\nJane Julie McConnell\n
+Janel MacLeod\r\nJanis Price\r\nJankyGamer\r\nJannah Mekhaemar\r\nJaxv3r Jam\r\nJay  'Loki ' Batson\r\nJay Ocampo\r\nJaym Gates\r\nJayme  'Squirrel Tail Soup ' Tesnow\r\nJazz\r\nJEllis\r\nJelloNello\r\nJellysound\r\nJennifer Priester \r\nJeremy Waters\r\nJerlali\r\nJess Melodique\r\nJessica Hoelscher\r\nJessica Johansen\r\nJessy Pretz\r\nJhon Waterman\r\nJimmy Ray  'J.R. ' Tyner 3rd\r\n=Janel MacLeod\r\nJanis Price\r\nJankyGamer\r\nJannah Mekhaemar\r\nJaxv3r Jam\r\nJay  'Loki ' Batson\r\nJay Ocampo\r\nJaym Gates\r\nJayme  'Squirrel Tail Soup ' Tesnow\r\nJazz\r\nJEllis\r\nJelloNello\r\nJellysound\r\nJennifer Priester \r\nJeremy Waters\r\nJerlali\r\nJess Melodique\r\nJessica Hoelscher\r\nJessica Johansen\r\nJessy Pretz\r\nJhon Waterman\r\nJimmy Ray  'J.R. ' Tyner 3rd\r\n
+
+Kuan Ieong Cheng\nKububobo\nKuma Niku\nKuro Kazaki\nKyle Fish\nKylo Ramsay\nLachlan Pearce\nLaComida\nLady Lassalot of Seattle\nLady Lumyria\nLanallama\nLao\nLaSylvie\nLauren Ariana Morse\nLauren McClelland\nLee Scion\nLeeboy42\nLegohaulic\nLeif  'Eightywithout ' Conti-Groome\nLenaties\nLePierre\nLijakaca\n=Kuan Ieong Cheng\nKububobo\nKuma Niku\nKuro Kazaki\nKyle Fish\nKylo Ramsay\nLachlan Pearce\nLaComida\nLady Lassalot of Seattle\nLady Lumyria\nLanallama\nLao\nLaSylvie\nLauren Ariana Morse\nLauren McClelland\nLee Scion\nLeeboy42\nLegohaulic\nLeif  'Eightywithout ' Conti-Groome\nLenaties\nLePierre\nLijakaca\n
+Kelley Haithcock\r\nKevin Martinez(Kit Mirage)\r\nKiakat\r\nKiara the Vanguard\r\nKICCC\r\nKieron Stoff\r\nKimberley Brannon\r\nKirsten Meadows\r\nKitsune19\r\nKittens.Me\r\nKitti\r\nKKnollwoodd\r\nKn0\r\nKnoggi\r\nkoki_ao\r\nValiant_Lotus\r\nKossyra\r\nKourtnee Crawford \r\nKoya\r\nKrista and Shannon\r\nKristin W\r\nKrombopulos Michael\r\nKrysty B.\r\n=Kelley Haithcock\r\nKevin Martinez(Kit Mirage)\r\nKiakat\r\nKiara the Vanguard\r\nKICCC\r\nKieron Stoff\r\nKimberley Brannon\r\nKirsten Meadows\r\nKitsune19\r\nKittens.Me\r\nKitti\r\nKKnollwoodd\r\nKn0\r\nKnoggi\r\nkoki_ao\r\nValiant_Lotus\r\nKossyra\r\nKourtnee Crawford \r\nKoya\r\nKrista and Shannon\r\nKristin W\r\nKrombopulos Michael\r\nKrysty B.\r\n
+Lil Ninja\r\nLilly Willobrook\r\nLinda Ahlskog\r\nLin-Tahi & Kevin\r\nLiveMynd\r\nLivie Yan\r\nLiz Eddy\r\nLucinda Wride\r\nLuke Freeman\r\nLumenar\r\nLunaeGladius\r\nLushrocker\r\nLynxWolfe\r\nLysander Limoncello\r\nM. BobbitWurmz\r\nMachineMaiden\r\nMad Stevenson\r\nMaddog Chamberlain \r\nMadeline Fairhall-Wald\r\nMaelunabelle\r\nMaggie Wright\r\nMagpie\r\nMakaiFrost\r\n=Lil Ninja\r\nLilly Willobrook\r\nLinda Ahlskog\r\nLin-Tahi & Kevin\r\nLiveMynd\r\nLivie Yan\r\nLiz Eddy\r\nLucinda Wride\r\nLuke Freeman\r\nLumenar\r\nLunaeGladius\r\nLushrocker\r\nLynxWolfe\r\nLysander Limoncello\r\nM. BobbitWurmz\r\nMachineMaiden\r\nMad Stevenson\r\nMaddog Chamberlain \r\nMadeline Fairhall-Wald\r\nMaelunabelle\r\nMaggie Wright\r\nMagpie\r\nMakaiFrost\r\n
+K. Romanowski\r\nK.N. Banet\r\nKade Sirin\r\nKaethulu\r\nKai Alexei  'Gabby ' M.\r\nKai Palaran\r\nKaiyu Liu \r\nKamy\r\nKano Shuyaki\r\nKaren Wan\r\nKassie M.\r\nKataris\r\nKate 'Kyrahiko' Villanueva\r\nKathy Marcia \r\nKatie Solem\r\nKatrani Merack\r\nKayla Eden\r\nKayla Thacker\r\nKayla-Ann Zen\r\nKaylithe\r\nKaze1981\r\nkeep fight with us, keep cook with us.\r\n=K. Romanowski\r\nK.N. Banet\r\nKade Sirin\r\nKaethulu\r\nKai Alexei  'Gabby ' M.\r\nKai Palaran\r\nKaiyu Liu \r\nKamy\r\nKano Shuyaki\r\nKaren Wan\r\nKassie M.\r\nKataris\r\nKate 'Kyrahiko' Villanueva\r\nKathy Marcia \r\nKatie Solem\r\nKatrani Merack\r\nKayla Eden\r\nKayla Thacker\r\nKayla-Ann Zen\r\nKaylithe\r\nKaze1981\r\nkeep fight with us, keep cook with us.\r\n
+
+Nathan Beittenmiller\nNathan King\nNecode\nNeko Gecko\nnekrosys\nNeonNoob\nNeroGrave\nNethaca\nnia!\nNicholas Baugh\nNicholas Steven Killham\nNick Tolman\nNicole C\nnightpups\nNightShade aka Melody Nigro\nNikola Todorov\nNINITOWN\nNiroxs\nNKQT\nNo thanks\nNocturnalWitch\nNomifae\n=Nathan Beittenmiller\nNathan King\nNecode\nNeko Gecko\nnekrosys\nNeonNoob\nNeroGrave\nNethaca\nnia!\nNicholas Baugh\nNicholas Steven Killham\nNick Tolman\nNicole C\nnightpups\nNightShade aka Melody Nigro\nNikola Todorov\nNINITOWN\nNiroxs\nNKQT\nNo thanks\nNocturnalWitch\nNomifae\n
+Meleeanna\nMelissa Chung\nMelvin Charles Dy\nMeme Economy\nMer\nMerethe Najjar\nMHorse\nMichael  'Muroit ' Huck\nMichael Dyer\nMichael Horbachuk\nMichael K\nMichael S Locricchio\nMichael Smith\nMiika  'Mekanizm ' Laine\nMika Wind\nMikah Northwynd\nMikey A.\nMikey Jawn\nMikiLuz\nMiniore\nMirei Magik\nMiss Fats\nMissVee83#0456\n=Meleeanna\nMelissa Chung\nMelvin Charles Dy\nMeme Economy\nMer\nMerethe Najjar\nMHorse\nMichael  'Muroit ' Huck\nMichael Dyer\nMichael Horbachuk\nMichael K\nMichael S Locricchio\nMichael Smith\nMiika  'Mekanizm ' Laine\nMika Wind\nMikah Northwynd\nMikey A.\nMikey Jawn\nMikiLuz\nMiniore\nMirei Magik\nMiss Fats\nMissVee83#0456\n
+MakiharAkio\nMallory McConville\nMaloren Forestsong\nMantodea\nMarcyZenBeans\nMaria Ky\nMariam the Marvelous\nMaricarmen Suarez\nMarisila\nMark Sztainbok\nMarkyMark75\nMarnyVT\nMarshall Hyde\nMatri Dunadan\nMatthew R\nMatthew Valin\nMax Soeldner\nMaximus Ferrite\nMayannaise\nMcJoseph the Soup Lord\nMeep\nMeghan Cantara\nMel\n=MakiharAkio\nMallory McConville\nMaloren Forestsong\nMantodea\nMarcyZenBeans\nMaria Ky\nMariam the Marvelous\nMaricarmen Suarez\nMarisila\nMark Sztainbok\nMarkyMark75\nMarnyVT\nMarshall Hyde\nMatri Dunadan\nMatthew R\nMatthew Valin\nMax Soeldner\nMaximus Ferrite\nMayannaise\nMcJoseph the Soup Lord\nMeep\nMeghan Cantara\nMel\n
+Mizzanimegeek\nMK Ngo\nMo\nMomoMischief\nmoofestgirl\nMoonras\nMoonSword\nMoony\nMordecai Lancaster\nMoustafa Chamli\nMr45\nMroddy\nMsBrittGaming\nMsCarrotCake\nMuffinWifey\nMyriam Merckx\nmytinytot\nN. Vivian\nNadens\nNaren Chinnam\nNarookoo\nNassamont\nNatalie Victoria\n=Mizzanimegeek\nMK Ngo\nMo\nMomoMischief\nmoofestgirl\nMoonras\nMoonSword\nMoony\nMordecai Lancaster\nMoustafa Chamli\nMr45\nMroddy\nMsBrittGaming\nMsCarrotCake\nMuffinWifey\nMyriam Merckx\nmytinytot\nN. Vivian\nNadens\nNaren Chinnam\nNarookoo\nNassamont\nNatalie Victoria\n
+
+
+Paul Ambs\r\nPaul Marzagalli\r\nPB Chompy\r\nPelligrina\r\nPennyOwl\r\nPery Salyer\r\npewpewsloth\r\nPhantomPickle\r\nPhaoxs\r\nPhoebe Ginster\r\nPier-Luc Deschamps\r\nPiranhartist\r\nPorscha Persad\r\nPriscila Panigoro\r\nPuddini\r\nPuppyG\r\nPyretta Grimme Deville\r\npythonrice\r\nQuilesca\r\nQuinn Swain-Nisbet\r\nRachel  'Asteriaex ' DeLacy\r\nRae V. (Naoma) \r\n=Paul Ambs\r\nPaul Marzagalli\r\nPB Chompy\r\nPelligrina\r\nPennyOwl\r\nPery Salyer\r\npewpewsloth\r\nPhantomPickle\r\nPhaoxs\r\nPhoebe Ginster\r\nPier-Luc Deschamps\r\nPiranhartist\r\nPorscha Persad\r\nPriscila Panigoro\r\nPuddini\r\nPuppyG\r\nPyretta Grimme Deville\r\npythonrice\r\nQuilesca\r\nQuinn Swain-Nisbet\r\nRachel  'Asteriaex ' DeLacy\r\nRae V. (Naoma) \r\n
+Rylie B\r\nrythus\r\n_sakura__\r\nS.  'Jet ' Pak\r\nS. Simmons\r\nSacredTower\r\nSadie Fitzgerald\r\nSagaboy \r\nsailorchic15\r\nSakra Reed\r\nSalPanda\r\nSaltyMikan\r\nSam Greszes\r\nSam Kioussis\r\nSamantha DeWitt - SammieLuvBug \r\nSamantha Dixon\r\nSamantha Jolene\r\nSamantha Ortega\r\nSamuel Petrou\r\nSanchk\r\nSantario\r\n"Santiago Andaluz\n"\r\n=Rylie B\r\nrythus\r\n_sakura__\r\nS.  'Jet ' Pak\r\nS. Simmons\r\nSacredTower\r\nSadie Fitzgerald\r\nSagaboy \r\nsailorchic15\r\nSakra Reed\r\nSalPanda\r\nSaltyMikan\r\nSam Greszes\r\nSam Kioussis\r\nSamantha DeWitt - SammieLuvBug \r\nSamantha Dixon\r\nSamantha Jolene\r\nSamantha Ortega\r\nSamuel Petrou\r\nSanchk\r\nSantario\r\n"Santiago Andaluz\n"\r\n
+NoxVox\nOats Johnson\nOctober\nOliver Hjelm\nOliver Loos der Berliner Feinschmecker\nOlivia Campbell\nOlivia Yan\nOmoly the Delicious\nOnerius\nOran Liu\nOrangeMaru\nOriana Martinez\nOshiro\nOwen12121212121\nPaige Kuplinski\nPandalf\nPaofu\nParker Howell\nPastrami\nPastry Chef Cthulhu\nPatricia Landers\nPatrick  'Nap Man ' Meyer\n=NoxVox\nOats Johnson\nOctober\nOliver Hjelm\nOliver Loos der Berliner Feinschmecker\nOlivia Campbell\nOlivia Yan\nOmoly the Delicious\nOnerius\nOran Liu\nOrangeMaru\nOriana Martinez\nOshiro\nOwen12121212121\nPaige Kuplinski\nPandalf\nPaofu\nParker Howell\nPastrami\nPastry Chef Cthulhu\nPatricia Landers\nPatrick  'Nap Man ' Meyer\n
+Raksosak\r\nRavenWitch\r\nRayokie\r\nRayzol Ravioli\r\nRebe Motos\r\nRebecka\r\nRedX16\r\nRemy Free\r\nRezemoor \r\nRhodoactylos\r\nRichie Thompson\r\nRisha Balakrishnan \r\nRiver Shanahan\r\nRob\\\\aRia\r\nRobert Auson\r\nRobert Moser\r\nRobyn Rose\r\nRoger Herzog Jace Ripper\r\nRose\r\nRose Flora\r\nRoy Gotlib\r\nRyan Ellison\r\nRyan Sigurdson\r\n=Raksosak\r\nRavenWitch\r\nRayokie\r\nRayzol Ravioli\r\nRebe Motos\r\nRebecka\r\nRedX16\r\nRemy Free\r\nRezemoor \r\nRhodoactylos\r\nRichie Thompson\r\nRisha Balakrishnan \r\nRiver Shanahan\r\nRob\\\\aRia\r\nRobert Auson\r\nRobert Moser\r\nRobyn Rose\r\nRoger Herzog Jace Ripper\r\nRose\r\nRose Flora\r\nRoy Gotlib\r\nRyan Ellison\r\nRyan Sigurdson\r\n
+
+Sharkbait-Googoogaga\r\nShaytooth\r\nSheika\r\nShelby Anderson\r\nShiba Le Chef\r\nShirley Jacob\r\nShurkuris\r\nSierraViridian\r\nSimone Busse\r\nSimply Shino\r\nSinTax \r\nSistaTwista\r\nSkadi\r\nSkalleponken\r\nSkyler Keeney\r\nslakjesslijm\r\nslakjesslijm\r\nsledgeHelmut\r\nSlothFang\r\nSmith\r\nSnaccsy\r\nSnowyBlaze\r\nSoaches\r\n=Sharkbait-Googoogaga\r\nShaytooth\r\nSheika\r\nShelby Anderson\r\nShiba Le Chef\r\nShirley Jacob\r\nShurkuris\r\nSierraViridian\r\nSimone Busse\r\nSimply Shino\r\nSinTax \r\nSistaTwista\r\nSkadi\r\nSkalleponken\r\nSkyler Keeney\r\nslakjesslijm\r\nslakjesslijm\r\nsledgeHelmut\r\nSlothFang\r\nSmith\r\nSnaccsy\r\nSnowyBlaze\r\nSoaches\r\n
+T. Morrow\r\nTamablama\r\ntango2999\r\nTanner Burley\r\nTao\r\nTarragon â€œEsperLydiaâ€ Smith\r\nTati Cosper\r\nTaviBoi\r\nTaylor Holder or Taylor K Holder, whichever fits best with other submitted names.\r\nTaylor O'Donnell\r\nTefno\r\nTerry Atkinson\r\nThe Bespoke Dragon\r\nThe Creeken\r\nThe Garden PrinceðŸª´\r\nThe Moon Cowboys\r\nTheSpicyPhoenix\r\nThomas Genese\r\nThomill\r\n=T. Morrow\r\nTamablama\r\ntango2999\r\nTanner Burley\r\nTao\r\nTarragon â€œEsperLydiaâ€ Smith\r\nTati Cosper\r\nTaviBoi\r\nTaylor Holder or Taylor K Holder, whichever fits best with other submitted names.\r\nTaylor O'Donnell\r\nTefno\r\nTerry Atkinson\r\nThe Bespoke Dragon\r\nThe Creeken\r\nThe Garden PrinceðŸª´\r\nThe Moon Cowboys\r\nTheSpicyPhoenix\r\nThomas Genese\r\nThomill\r\n
+Sara Duniphin\r\nSarah Birch\r\nSariaAkineko\r\nSathupheap Chhim (Koduck) \r\nSato\r\nScarlet Atlas\r\nScoutastic!\r\nSDoubleR\r\nsdsdsd\r\nSean â€œMuffin Manâ€ Carpenter\r\nSean DeArras\r\nSean McNamara\r\nSebastiano Sewolf\r\nSecondBreakfast\r\nSergio Losada\r\nSergio Salas Calvo\r\nShadowMood02\r\nShae Trimmer\r\nShane Mooring\r\nShangryla\r\nSharadaSkye\r\n=Sara Duniphin\r\nSarah Birch\r\nSariaAkineko\r\nSathupheap Chhim (Koduck) \r\nSato\r\nScarlet Atlas\r\nScoutastic!\r\nSDoubleR\r\nsdsdsd\r\nSean â€œMuffin Manâ€ Carpenter\r\nSean DeArras\r\nSean McNamara\r\nSebastiano Sewolf\r\nSecondBreakfast\r\nSergio Losada\r\nSergio Salas Calvo\r\nShadowMood02\r\nShae Trimmer\r\nShane Mooring\r\nShangryla\r\nSharadaSkye\r\n
+Sofia\r\nSolÃ¨ne\r\nSol-Ha\r\nSoloran Lunaterm\r\nsongbirdky\r\nSoup Matter Angelique \r\nSpammy\r\nSpeckle Fire\r\nSpoggalator\r\nSpudguy\r\nStaarshiine\r\nSteamed Ham\r\nStephani-Anne Engler\r\nStephanie Patterson\r\nStephen Giles\r\nStephen Olar\r\nStephen Whitehead\r\nSteve Harvey\r\nSugarstarbits\r\nSunflower\r\nSunna ÃšrsÃºla\r\nSusan Oleinik\r\nSzapp\r\n=Sofia\r\nSolÃ¨ne\r\nSol-Ha\r\nSoloran Lunaterm\r\nsongbirdky\r\nSoup Matter Angelique \r\nSpammy\r\nSpeckle Fire\r\nSpoggalator\r\nSpudguy\r\nStaarshiine\r\nSteamed Ham\r\nStephani-Anne Engler\r\nStephanie Patterson\r\nStephen Giles\r\nStephen Olar\r\nStephen Whitehead\r\nSteve Harvey\r\nSugarstarbits\r\nSunflower\r\nSunna ÃšrsÃºla\r\nSusan Oleinik\r\nSzapp\r\n
+
+Yuka Moribe\r\nYuki\r\nYuki S\r\nYukiyuru\r\nYun_o_o_yun\r\nYW\r\nZachary Kirby\r\nZachary Morningstar\r\nZalkyria\r\nZanji\r\nZara RolÃ©n\r\nZellerTeller\r\nZemas\r\nZiryo\r\nZlatka Todorova\r\nZombyCrusher\r\n=Yuka Moribe\r\nYuki\r\nYuki S\r\nYukiyuru\r\nYun_o_o_yun\r\nYW\r\nZachary Kirby\r\nZachary Morningstar\r\nZalkyria\r\nZanji\r\nZara RolÃ©n\r\nZellerTeller\r\nZemas\r\nZiryo\r\nZlatka Todorova\r\nZombyCrusher\r\n
+Tuna Hematoma\r\nTurbulence Turtle\r\nTyler Meidinger\r\ntyphonius\r\nUturoa no Raiatea\r\nVALADOLIDO\r\nVanessa Marquand\r\nSaberCrusader\r\nVictoria Leslie\r\nVinicius Alves\r\nVivian P. \r\nVixen Madness\r\nVonnie Voong\r\nvultu2e\r\nW. Lepol\r\nWavecrest\r\nWilfredo Alvarado \r\nWinowill\r\nXelion\r\nxiussy ^^~\r\nxKoali\r\nXVJocxelyn\r\nYourLocalOtto\r\n=Tuna Hematoma\r\nTurbulence Turtle\r\nTyler Meidinger\r\ntyphonius\r\nUturoa no Raiatea\r\nVALADOLIDO\r\nVanessa Marquand\r\nSaberCrusader\r\nVictoria Leslie\r\nVinicius Alves\r\nVivian P. \r\nVixen Madness\r\nVonnie Voong\r\nvultu2e\r\nW. Lepol\r\nWavecrest\r\nWilfredo Alvarado \r\nWinowill\r\nXelion\r\nxiussy ^^~\r\nxKoali\r\nXVJocxelyn\r\nYourLocalOtto\r\n
+Three Ducks in a Dress\r\nTiana Tan\r\nTiber\r\nTim Lam\r\nTissysbaby\r\nTLTQ\r\nTnpinc\r\nToast Dot Exe\r\nToast Toaster\r\ntom poole\r\nTomica Dyer\r\nTommy LÃ¶fgren (TOMILO)\r\nToni T. Timonen\r\nTopHatNinja49\r\nTori Spady\r\nTownfall\r\nTracy Soule\r\nTrastir\r\nTreefrog1188\r\ntristarstarstar\r\nTrokhima  'Trofim ' Tsutsunen\r\nTrusis Bunny\r\n=Three Ducks in a Dress\r\nTiana Tan\r\nTiber\r\nTim Lam\r\nTissysbaby\r\nTLTQ\r\nTnpinc\r\nToast Dot Exe\r\nToast Toaster\r\ntom poole\r\nTomica Dyer\r\nTommy LÃ¶fgren (TOMILO)\r\nToni T. Timonen\r\nTopHatNinja49\r\nTori Spady\r\nTownfall\r\nTracy Soule\r\nTrastir\r\nTreefrog1188\r\ntristarstarstar\r\nTrokhima  'Trofim ' Tsutsunen\r\nTrusis Bunny\r\n
+
+
+Hire Antonio?=聘用 安东尼奥？
+男性名字
+
+Akeem=阿基姆
+Akio=昭夫
+Alex=亚历克斯
+Amin=阿明
+Anthony=安东尼
+Asahi=朝日
+Aziz=阿齐兹
+Ben=本
+Billy=比利
+Bobby=鲍比
+Brad=布拉德
+Carl=卡尔
+Chikao=赤尾
+Christopher=克里斯托弗
+Christopher=克里斯托弗
+Clement=克莱门特
+Daniel=丹尼尔
+Davis=戴维斯
+Enmei=恩美
+Ernest=欧内斯特
+Eryk=艾里克
+Eryk=艾里克
+Evan=埃文
+Evan=埃文
+Faheem=法希姆
+Frankie=弗兰基
+Fuji=富士
+Goro=吾郎
+Haru=春
+Hector=赫克托
+Hector=赫克托
+Homer=荷马
+Hotaru=萤
+Hugo=雨果
+Hugo=雨果
+Jamal=贾马尔
+Javier=哈维尔
+Jay=杰伊
+Jay=杰伊
+Jiro=次郎
+Johan=约翰
+John=约翰
+Josh=乔什
+Kai=凯
+Ken=肯
+Kenny=肯尼
+Kota=科塔
+Lamar=拉马尔
+Lamar=拉马尔
+Larry=拉里
+Len=伦
+Leon=莱昂
+Leon=莱昂
+Lin=林
+Linsen=林森
+Logan=洛根
+Logan=洛根
+Luis=路易斯
+Luis=路易斯
+Mako=真子
+Marcel=马塞尔
+Marcel=马塞尔
+Matteo=马泰奥
+Matteo=马泰奥
+Michael=迈克尔
+Michael=迈克尔
+Mike=麦克风
+Naseem=纳西姆
+Oda=小田
+Oliver=奥利弗
+Oliver=奥利弗
+Omar=奥马尔
+Pietro=皮特罗
+Pietro=皮特罗
+Pino=皮诺
+Pisco=皮斯科
+Pisco=皮斯科
+Remy=雷米
+Remy=雷米
+Ren=任
+Rocco=洛科
+Rocco=洛科
+Sebastien=塞巴斯蒂安
+Terry=特里
+Xander=桑德
+Xander=桑德
+Xavier=泽维尔
+Zack=扎克
+Zack=扎克
+
+女性名字
+
+Ada=艾达
+Adele=阿黛尔
+Adisa=阿迪萨
+Aika=爱佳
+Aisha=阿伊莎
+Alice=爱丽丝
+Amber=安布尔
+Anna=安娜
+Anya=安雅
+Ashlyn=阿什琳
+Astrid=阿斯特丽德
+Aurora=奥罗拉
+Ava=艾娃
+Beatrix=碧翠丝
+Bjorg=比约格
+Bo=波
+Camila=卡米拉
+Candy=坎蒂
+Celeste=塞莱斯特
+Celia=西莉亚
+Claire=克莱尔
+Cora=科拉
+Cynthia=辛西娅
+Danielle=丹妮尔
+Daria=达里亚
+Dilly=迪莉
+Dorothy=多萝西
+Eloise=埃洛伊斯
+Ember=安贝尔
+Emilia=艾米莉亚
+Emma=艾玛
+Erica=埃里卡
+Eryn=艾琳
+Farah=法拉赫
+Freja=弗雷娅
+Frida=弗里达
+Fumiko=文子
+Gill=吉尔
+Greta=格雷塔
+Hatsu=初
+Haya=哈亚
+Iesha=耶莎
+Isla=伊斯拉
+Jenny=珍妮
+Jiao=娇
+Juliet=朱丽叶
+Karla=卡拉
+Kianna=基安娜
+Kissa=基萨
+Kojo=小城
+Kwasi=夸西
+Lianna=莉安娜
+Lila=莉拉
+Lina=莉娜
+Lulu=露露
+Luna=露娜
+Marie=玛丽
+Marine=海洋
+Matilda=玛蒂尔达
+Maya=玛雅
+Megumi=惠
+Mia=米娅
+Michelle=米歇尔
+Mimi=咪咪
+Miu=美雨
+Momo=莫莫
+Nawra=纳乌拉
+Nayo=奈央
+Nishi=西
+Nomble=诺布尔
+Nura=努拉
+Okimi=奥基米
+Oma=奥玛
+Rai=拉伊
+Rini=里尼
+Robin=罗宾
+Rose=玫瑰
+Sarah=莎拉
+Seiko=真理
+Skylar=斯凯拉
+Sofia=索菲亚
+Suki=苏琪
+Sybil=西比尔
+Tam=塔姆
+Ulla=乌拉
+Vera=维拉
+Yumiko=由美子
+Yvonne=伊冯娜
+Zahra=扎赫拉
+Zoe=佐伊
+
+
+男性名字
+Hire Akeem=聘用 阿基姆
+Hire Akio=聘用 昭夫
+Hire Alex=聘用 亚历克斯
+Hire Amin=聘用 阿明
+Hire Anthony=聘用 安东尼
+Hire Asahi=聘用 朝日
+Hire Aziz=聘用 阿齐兹
+Hire Ben=聘用 本
+Hire Billy=聘用 比利
+Hire Bobby=聘用 鲍比
+Hire Brad=聘用 布拉德
+Hire Carl=聘用 卡尔
+Hire Chikao=聘用 赤尾
+Hire Christopher=聘用 克里斯托弗
+Hire Christopher=聘用 克里斯托弗
+Hire Clement=聘用 克莱门特
+Hire Daniel=聘用 丹尼尔
+Hire Davis=聘用 戴维斯
+Hire Enmei=聘用 恩美
+Hire Ernest=聘用 欧内斯特
+Hire Eryk=聘用 艾里克
+Hire Eryk=聘用 艾里克
+Hire Evan=聘用 埃文
+Hire Evan=聘用 埃文
+Hire Faheem=聘用 法希姆
+Hire Frankie=聘用 弗兰基
+Hire Fuji=聘用 富士
+Hire Goro=聘用 吾郎
+Hire Haru=聘用 春
+Hire Hector=聘用 赫克托
+Hire Hector=聘用 赫克托
+Hire Homer=聘用 荷马
+Hire Hotaru=聘用 萤
+Hire Hugo=聘用 雨果
+Hire Hugo=聘用 雨果
+Hire Jamal=聘用 贾马尔
+Hire Javier=聘用 哈维尔
+Hire Jay=聘用 杰伊
+Hire Jay=聘用 杰伊
+Hire Jiro=聘用 次郎
+Hire Johan=聘用 约翰
+Hire John=聘用 约翰
+Hire Josh=聘用 乔什
+Hire Kai=聘用 凯
+Hire Ken=聘用 肯
+Hire Kenny=聘用 肯尼
+Hire Kota=聘用 科塔
+Hire Lamar=聘用 拉马尔
+Hire Lamar=聘用 拉马尔
+Hire Larry=聘用 拉里
+Hire Len=聘用 伦
+Hire Leon=聘用 莱昂
+Hire Leon=聘用 莱昂
+Hire Lin=聘用 林
+Hire Linsen=聘用 林森
+Hire Logan=聘用 洛根
+Hire Logan=聘用 洛根
+Hire Luis=聘用 路易斯
+Hire Luis=聘用 路易斯
+Hire Mako=聘用 真子
+Hire Marcel=聘用 马塞尔
+Hire Marcel=聘用 马塞尔
+Hire Matteo=聘用 马泰奥
+Hire Matteo=聘用 马泰奥
+Hire Michael=聘用 迈克尔
+Hire Michael=聘用 迈克尔
+Hire Mike=聘用 麦克风
+Hire Naseem=聘用 纳西姆
+Hire Oda=聘用 小田
+Hire Oliver=聘用 奥利弗
+Hire Oliver=聘用 奥利弗
+Hire Omar=聘用 奥马尔
+Hire Pietro=聘用 皮特罗
+Hire Pietro=聘用 皮特罗
+Hire Pino=聘用 皮诺
+Hire Pisco=聘用 皮斯科
+Hire Pisco=聘用 皮斯科
+Hire Remy=聘用 雷米
+Hire Remy=聘用 雷米
+Hire Ren=聘用 任
+Hire Rocco=聘用 洛科
+Hire Rocco=聘用 洛科
+Hire Sebastien=聘用 塞巴斯蒂安
+Hire Terry=聘用 特里
+Hire Xander=聘用 桑德
+Hire Xander=聘用 桑德
+Hire Xavier=聘用 泽维尔
+Hire Zack=聘用 扎克
+Hire Zack=聘用 扎克
+
+女性名字
+
+Hire Ada=聘用 艾达
+Hire Adele=聘用 阿黛尔
+Hire Adisa=聘用 阿迪萨
+Hire Aika=聘用 爱佳
+Hire Aisha=聘用 阿伊莎
+Hire Alice=聘用 爱丽丝
+Hire Amber=聘用 安布尔
+Hire Anna=聘用 安娜
+Hire Anya=聘用 安雅
+Hire Ashlyn=聘用 阿什琳
+Hire Astrid=聘用 阿斯特丽德
+Hire Aurora=聘用 奥罗拉
+Hire Ava=聘用 艾娃
+Hire Beatrix=聘用 碧翠丝
+Hire Bjorg=聘用 比约格
+Hire Bo=聘用 波
+Hire Camila=聘用 卡米拉
+Hire Candy=聘用 坎蒂
+Hire Celeste=聘用 塞莱斯特
+Hire Celia=聘用 西莉亚
+Hire Claire=聘用 克莱尔
+Hire Cora=聘用 科拉
+Hire Cynthia=聘用 辛西娅
+Hire Danielle=聘用 丹妮尔
+Hire Daria=聘用 达里亚
+Hire Dilly=聘用 迪莉
+Hire Dorothy=聘用 多萝西
+Hire Eloise=聘用 埃洛伊斯
+Hire Ember=聘用 安贝尔
+Hire Emilia=聘用 艾米莉亚
+Hire Emma=聘用 艾玛
+Hire Erica=聘用 埃里卡
+Hire Eryn=聘用 艾琳
+Hire Farah=聘用 法拉赫
+Hire Freja=聘用 弗雷娅
+Hire Frida=聘用 弗里达
+Hire Fumiko=聘用 文子
+Hire Gill=聘用 吉尔
+Hire Greta=聘用 格雷塔
+Hire Hatsu=聘用 初
+Hire Haya=聘用 哈亚
+Hire Iesha=聘用 耶莎
+Hire Isla=聘用 伊斯拉
+Hire Jenny=聘用 珍妮
+Hire Jiao=聘用 娇
+Hire Juliet=聘用 朱丽叶
+Hire Karla=聘用 卡拉
+Hire Kianna=聘用 基安娜
+Hire Kissa=聘用 基萨
+Hire Kojo=聘用 小城
+Hire Kwasi=聘用 夸西
+Hire Lianna=聘用 莉安娜
+Hire Lila=聘用 莉拉
+Hire Lina=聘用 莉娜
+Hire Lulu=聘用 露露
+Hire Luna=聘用 露娜
+Hire Marie=聘用 玛丽
+Hire Marine=聘用 海洋
+Hire Matilda=聘用 玛蒂尔达
+Hire Maya=聘用 玛雅
+Hire Megumi=聘用 惠
+Hire Mia=聘用 米娅
+Hire Michelle=聘用 米歇尔
+Hire Mimi=聘用 咪咪
+Hire Miu=聘用 美雨
+Hire Momo=聘用 莫莫
+Hire Nawra=聘用 纳乌拉
+Hire Nayo=聘用 奈央
+Hire Nishi=聘用 西
+Hire Nomble=聘用 诺布尔
+Hire Nura=聘用 努拉
+Hire Okimi=聘用 奥基米
+Hire Oma=聘用 奥玛
+Hire Rai=聘用 拉伊
+Hire Rini=聘用 里尼
+Hire Robin=聘用 罗宾
+Hire Rose=聘用 罗斯
+Hire Sarah=聘用 莎拉
+Hire Seiko=聘用 真理
+Hire Skylar=聘用 斯凯拉
+Hire Sofia=聘用 索菲亚
+Hire Suki=聘用 苏琪
+Hire Sybil=聘用 西比尔
+Hire Tam=聘用 塔姆
+Hire Ulla=聘用 乌拉
+Hire Vera=聘用 维拉
+Hire Yumiko=聘用 由美子
+Hire Yvonne=聘用 伊冯娜
+Hire Zahra=聘用 扎赫拉
+Hire Zoe=聘用 佐伊
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AnnaMay=安娜-梅
+MaryAnne=玛丽·安妮
+
+
+Uriel=乌利尔
+Aloys=阿洛伊斯
+Hasel=哈塞尔
+Aime=艾姆
+Bianca=碧安卡
+Pomarine=波玛琳
+April=埃普丽尔
+Nacim=纳西姆
+Anna-May=安娜-梅
+Mae-Lou=玫露
+Prisca=普里斯卡
+Bowie=鲍伊
+Angi=安吉
+Fleur=芙蓉
+Milo=米洛
+Valentina=瓦伦蒂娜
+Bea=碧
+Aylin=琳
+Nadjet=纳杰特
+Sahim=萨希姆
+Ian=伊恩
+Thelio=提里奥
+Lucius=卢修斯
+Nabiha=娜比哈
+B@dkArma42=B@dkArma42
+Damien=达米安
+Hugo=雨果
+Koa=科亚
+Camille=卡米尔
+Chef Casteau=卡斯托大厨
+Otto=奥托
+
+T.E.C.=T.E.C.
+Elton=埃尔顿
+Robert=罗伯特
+Yvonne=伊冯娜
+Cora=科拉
+Leon=莱昂
+Mary Anne=玛丽·安妮
+Casper=卡斯伯
+Gavin=加文
+Mei=梅
+Farhan=法尔汗
+Duncan=邓肯
+Dimitri=迪米特里
+Alisa=艾丽莎
+Benjamin=本杰明
+Ema=艾玛
+Sahil=萨希尔
+Duri=杜里
+Henri=亨利
+Asher=阿谢尔
+Eliza=伊丽莎
+Alice=爱丽丝
+Henrietta=亨丽埃塔
+
+Bonnie=邦妮
+Lisa=丽莎
+Sophia=索菲亚
+Alain=阿兰
+Simon=西蒙
+Louis=路易
+Aminata=阿米娜塔
+Adelaide=阿德莱德
+
+
+
